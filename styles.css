@@ -1,0 +1,29 @@
+body {
+    font-family: 'Baloo Chettan 2', cursive;
+    margin: 0;
+}
+.caption {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.header {
+    background-color: #774ef7;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.header .title{
+    font-size: 30px;
+    display: flex;
+}
+.top {
+    box-shadow: 5px 10px 27px 2px #ebebf7;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+}
