@@ -5,6 +5,7 @@
         "address": [{
             "place": "Cochin"
         }],
+        "icon": "ladensitae.png",
         "doctors": [
             {
                 "id": 0,
@@ -19,6 +20,7 @@
     {
         "name": "Hair Tree",
         "id": 2,
+        "icon": "hairtree.png",
         "address": [
             {
                 "place": "Thrissur"

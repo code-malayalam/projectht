@@ -94,7 +94,12 @@ body {
 
 .faq-img {
     margin: 10px;
+    border: 1px solid grey;
+    display: flex;
+    flex-grow: 1;
+    padding: 2px;
 }
+
 .faq-item-body {
     color: #777777;
 }
