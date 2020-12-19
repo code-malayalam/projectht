@@ -69,6 +69,11 @@ body {
     margin-right: 10px;
 }
 
+.clinics .clinic-item .clinic-img img {
+    max-width: 40px;
+    max-height: 40px;
+}
+
 
 .clinics .clinic-item .clinic-title {
     font-size: 20px;
@@ -98,6 +103,11 @@ body {
     display: flex;
     flex-grow: 1;
     padding: 2px;
+}
+
+.faq-img img{
+    max-width: 100px;
+    max-height: 100px;
 }
 
 .faq-item-body {

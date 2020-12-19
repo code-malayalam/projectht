@@ -37,7 +37,7 @@ function createFaqItem(item) {
         <div class="faq-item section-item" onclick="gotoFaq(${id})">
             ${img ? `
                 <div class="faq-img">
-                    <img src="images/${img}" alt="logo" width="100px" height="100px">
+                    <img src="images/${img}" alt="logo">
                 </div>
             ` : ''}
             <div>
@@ -67,7 +67,7 @@ function createClinicItem(item) {
     return `
         <div class="clinic-item section-item" onclick="gotoClinic(${id})">
             <div class="clinic-img">
-                <img src="icons/${icon}" alt="logo" width="40px" height="40px">
+                <img src="icons/${icon}" alt="logo">
             </div>
             <div class="clinic-body">
                 <div class="clinic-title">

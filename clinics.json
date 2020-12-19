@@ -33,5 +33,152 @@
             "id": 1,
             "type": "Visiting"
         }
+    },
+    {
+        "name": "Turkey Cosmetic and Hair Transplant Center",
+        "id": 3,
+        "icon": "turkey.png",
+        "address": [
+            {
+                "place": "Cochin"
+            }
+        ],
+        "doctors": {
+            "id": 1,
+            "type": "Visiting"
+        }
+    },
+    {
+        "name": "DHI",
+        "id": 6,
+        "icon": "dhi.png",
+        "website": "https://www.dhiindia.com/",
+        "address": [
+            {
+                "place": "Cochin"
+            }
+        ],
+        "doctors": {
+            "id": 1,
+            "type": "Visiting"
+        }
+    },
+    {
+        "name": "Hair O Craft",
+        "id": 9,
+        "icon": "hairocraft.png",
+        "website": "https://www.hairocraft.com/",
+        "address": [
+            {
+                "place": "Cochin, Trivandrum, Thrissur, Manjeri, Kozhikode, Kottayam"
+            }
+        ],
+        "doctors": {
+            "id": 1,
+            "type": "Visiting"
+        }
+    },
+    {
+        "name": "Hair Graaft",
+        "id": 9,
+        "icon": "hairgraaft.png",
+        "website": "https://hairgraaft.com/",
+        "address": [
+            {
+                "place": "Changanacherry"
+            }
+        ],
+        "doctors": {
+            "id": 1,
+            "type": "Visiting"
+        }
+    },
+    {
+        "name": "Hair O Dent",
+        "id": 4,
+        "icon": "hairodent.png",
+        "address": [
+            {
+                "place": "Cochin"
+            }
+        ],
+        "doctors": {
+            "id": 1,
+            "type": "Visiting"
+        }
+    },
+    {
+        "name": "Medlounges",
+        "id": 5,
+        "icon": "medlounges.png",
+        "address": [
+            {
+                "place": "Thiruvalla"
+            }
+        ],
+        "doctors": {
+            "id": 1,
+            "type": "Visiting"
+        }
+    },
+    {
+        "name": "VPlant",
+        "id": 5,
+        "icon": "vplant.png",
+        "website": "https://vplanthairclinics.com/",
+        "address": [
+            {
+                "place": "Cochin"
+            }
+        ],
+        "doctors": {
+            "id": 1,
+            "type": "Visiting"
+        }
+    },
+    {
+        "name": "CI Cosmetic Clinic",
+        "id": 9,
+        "icon": "ci.png",
+        "website": "https://www.cutisinternational.com/",
+        "address": [
+            {
+                "place": "Cochin, Trivandrum, Thrissur, Kottakkal, Kozhikode"
+            }
+        ],
+        "doctors": {
+            "id": 1,
+            "type": "Visiting"
+        }
+    },
+    {
+        "name": "Madari",
+        "id": 7,
+        "icon": "madari.png",
+        "website": "https://madari-dental-clinic-hair-transplant.business.site/",
+        "address": [
+            {
+                "place": "Nilambur"
+            }
+        ],
+        "doctors": {
+            "id": 1,
+            "type": "Visiting"
+        }
+    },
+    {
+        "name": "HPC Hair Transplant Centre",
+        "id": 8,
+        "icon": "hpc.png",
+        "website": "https://www.hpchairtransplant.com/",
+        "address": [
+            {
+                "place": "Cochin"
+            }
+        ],
+        "doctors": {
+            "id": 1,
+            "type": "Visiting"
+        }
     }
 ]
