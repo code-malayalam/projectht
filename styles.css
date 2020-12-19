@@ -1,6 +1,7 @@
 body {
-    font-family: 'Baloo Chettan 2', cursive;
+    font-family: 'Baloo Chettan 2', Verdana;
     margin: 0;
+    color: #323332;
 }
 .caption {
     padding: 10px 20px;
@@ -43,7 +44,6 @@ body {
     flex-direction:row-reverse;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 40px;
 }
 .section-item {
     margin: 10px 0;
@@ -51,11 +51,10 @@ body {
     border: 1px solid #dadada;
     border-radius: 3px;
     padding: 5px;
-    background-color: #774ff70a;
 }
 
 .clinics {
-    width: 35%;
+    width: 38%;
 }
 
 .clinics .clinic-item {
@@ -82,9 +81,9 @@ body {
     width: 60%
 }
 .faq-item-header {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .faq-item {
     padding: 10px;
@@ -95,10 +94,33 @@ body {
 .faq-img {
     margin: 10px;
 }
+.faq-item-body {
+    color: #777777;
+}
 
 .bottom {
     padding: 5px;
     background: #f7f7f7;
     border-top: 1px solid lightgray;
     margin-top: 40px;   
+}
+
+.warning {
+    margin: 20px;
+    background: #ffffcb;
+    padding: 10px;
+    border: 1px solid #d8d83d;
+    border-radius: 11px;
+    font-size: 15px;
+}
+
+
+@media (max-width: 900px) {
+    .faq {
+      width: 100%;
+      margin-top: 40px;
+    }
+    .clinics {
+        width: 100%;
+    }
 }
