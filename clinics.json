@@ -2,7 +2,7 @@
     {
         "name": "La Densitae",
         "id": 1,
-        "Address": [{
+        "address": [{
             "place": "Cochin"
         }],
         "doctors": [
@@ -19,7 +19,7 @@
     {
         "name": "Hair Tree",
         "id": 2,
-        "Address": [
+        "address": [
             {
                 "place": "Thrissur"
             },

@@ -51,6 +51,7 @@ body {
     border: 1px solid #dadada;
     border-radius: 3px;
     padding: 5px;
+    cursor: pointer;
 }
 
 .clinics {
