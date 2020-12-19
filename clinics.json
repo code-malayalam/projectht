@@ -1,0 +1,35 @@
+[
+    {
+        "name": "La Densitae",
+        "id": 1,
+        "Address": [{
+            "place": "Cochin"
+        }],
+        "doctors": [
+            {
+                "id": 0,
+                "type": "Permanant"
+            },
+            {
+                "id": 1,
+                "type": "Visiting"
+            }
+        ]
+    },
+    {
+        "name": "Hair Tree",
+        "id": 2,
+        "Address": [
+            {
+                "place": "Thrissur"
+            },
+            {
+                "place": "Kozhikode"
+            }
+        ],
+        "doctors": {
+            "id": 1,
+            "type": "Visiting"
+        }
+    }
+]
