@@ -3,8 +3,34 @@ const CLINIC_DISPLAY_LENGTH = 5;
 let homeClikedStateDefault = true;
 
 window.onload = function() {
-        fillListItems('clinics.json', 'clinics', createClinicItem);
-        fillListItems('faq.json', 'faq', createFaqItem);
+    const reqs = [
+        {
+            url: 'clinics.json',
+            id: 'clinics',
+            cb: createClinicItem
+        }, {
+            url: 'faq.json',
+            id: 'faq',
+            cb: createFaqItem
+        }
+    ];
+
+    const all = reqs.map((req) => {
+        return fetch(req.url + '?v=2')
+            .then(response => response.json());
+    });
+
+    Promise.all(all)
+        .then((data) => {
+            const content = document.getElementById('loading');
+            content.classList.add('hide-loading');
+            data.forEach((resItem, index) => {
+                const dom = resItem.map(reqs[index].cb).join(' ');
+                var node = document.getElementById(reqs[index].id);
+                node.insertAdjacentHTML('beforeend', dom);
+            });
+        })
+
 }
 
 function gotoFaq(id) {
@@ -15,15 +41,6 @@ function gotoClinic(id) {
     console.log('CLINIC ID=', id);
 }
 
-function fillListItems(url,id, cb) {
-    return fetch(url + '?v=2')
-        .then(response => response.json())
-        .then((data = []) => {
-            const dom = data.map(cb).join(' ');
-            var node = document.getElementById(id);
-            node.insertAdjacentHTML('beforeend', dom);
-        });
-}
 
 function clickShowMoreLess() {
     homeClikedStateDefault = !homeClikedStateDefault;
