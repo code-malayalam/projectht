@@ -2,19 +2,7 @@ const CLINIC_DISPLAY_LENGTH = 5;
 
 let homeClikedStateDefault = true;
 
-window.onload = function() {
-    const reqs = [
-        {
-            url: 'clinics.json',
-            id: 'clinics',
-            cb: createClinicItem
-        }, {
-            url: 'faq.json',
-            id: 'faq',
-            cb: createFaqItem
-        }
-    ];
-
+function loadData(reqs) {
     const all = reqs.map((req) => {
         return fetch(req.url + '?v=2')
             .then(response => response.json());
@@ -30,7 +18,6 @@ window.onload = function() {
                 node.insertAdjacentHTML('beforeend', dom);
             });
         })
-
 }
 
 function gotoFaq(id) {
@@ -47,6 +34,18 @@ function gotoAllClinics() {
 
 function gotoAllFaqs() {
     window.location = 'faqs.html';
+}
+
+function goHome() {
+    window.location = 'index.html';
+}
+
+function goBack() {
+    if(document.referrer.indexOf(window.location.hostname) === -1) {
+        window.location = 'index.html';
+    } else {
+        window.history.back();
+    }
 }
 
 function clickShowMoreLess() {

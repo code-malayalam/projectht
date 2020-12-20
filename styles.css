@@ -3,6 +3,10 @@ body {
     margin: 0;
     color: #323332;
 }
+.pointer {
+    cursor: pointer;
+}
+
 .caption {
     padding: 10px 20px;
     font-size: 20px;
@@ -65,11 +69,6 @@ body {
     padding: 5px;
     cursor: pointer;
 }
-
-.clinics {
-    width: 38%;
-}
-
 .clinics .clinic-item {
     display: flex;
     
@@ -99,9 +98,7 @@ body {
 .clinics .clinic-item .clinic-descr {
     color: grey;
 }
-.faq {
-    width: 60%
-}
+
 .faq-item-header {
     font-size: 20px;
     font-weight: 500;
@@ -158,51 +155,6 @@ body {
 
 .loading.hide-loading {
     display: none;
-}
-
-@media (max-width: 900px) {
-    .faq {
-      width: 100%;
-      margin-top: 40px;
-    }
-    .clinics {
-        width: 100%;
-    }
-    .click-state-default .clinics .clinic-item.hide-at-homepage {
-        display: none;
-    }
-    .more-less {
-        padding-right: 20px;
-        cursor: pointer;
-        font-size: 22px;
-        font-weight: 500;
-        color: white;
-    }
-    .click-state-default .more-less::after {
-        content: 'Show More';
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        padding: 10px;
-        background: #774ff7;
-        border-radius: 5px;
-    }
-    .click-state-clicked .more-less::after {
-        content: 'Show Less';
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        padding: 10px;
-        background: #774ff7;
-        border-radius: 5px;
-        
-    }
-    .caption {
-        font-size: 12px;
-    }
-    .caption span {
-        font-size: 16px;
-    }
 }
 
 /* LIBRARY */
