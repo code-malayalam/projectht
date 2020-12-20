@@ -34,13 +34,20 @@ window.onload = function() {
 }
 
 function gotoFaq(id) {
-    console.log('FAQ ID=', id);
+    window.location = `faq/${id}.html`;
 }
 
 function gotoClinic(id) {
-    console.log('CLINIC ID=', id);
+    window.location = `clinic/${id}.html`;
 }
 
+function gotoAllClinics() {
+    window.location = 'clinics.html';
+}
+
+function gotoAllFaqs() {
+    window.location = 'faqs.html';
+}
 
 function clickShowMoreLess() {
     homeClikedStateDefault = !homeClikedStateDefault;

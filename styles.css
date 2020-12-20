@@ -34,7 +34,13 @@ body {
 }
 .content-title {
     font-size: 24px;
+    cursor: pointer;
 }
+
+.content-title:hover {
+    color: #774ef7;
+}
+
 .top {
     box-shadow: 0 0 29px 0 rgba(134,134,134,.25);
 }
@@ -86,6 +92,10 @@ body {
     font-weight: 500;
 }
 
+.clinics .clinic-item .clinic-title:hover {
+    color: #774ef7;
+}
+
 .clinics .clinic-item .clinic-descr {
     color: grey;
 }
@@ -97,6 +107,11 @@ body {
     font-weight: 500;
     margin-bottom: 10px;
 }
+
+.faq-item-header:hover {
+    color: #774ef7;
+}
+
 .faq-item {
     padding: 10px;
     display: flex;
