@@ -3,22 +3,22 @@
         "id": 1,
         "img": "1.jpg",
         "mal": {
-            "q": "ഇതുപോലെ സ്ക്രാച്ച് വരുന്നത് ഒക്കെ ആണോ ?",
+            "q": "ഇതുപോലെ സ്ക്രാച്ച് വരുന്നത് ഒക്കെ ആണോ?",
             "a": "അതെ. ഇതുപോലെ കുറച്ചു പേര് ഗ്രൂപ്പിൽ മുന്നേയും പോസ്റ്റ് ചെയ്തിരുന്നു. അപ്പോൾ വന്ന ഉത്തരം ഇത്  റിസൾട്ടിനെ ബാധിക്കില്ല എന്നാണ്. saline water ഇടയ്ക്കിടയ്ക്ക് സ്പ്രേ ചെയ്‌താൽ നന്നായിരിക്കും."
         },
         "eng" : {
-            "q": "I am getting scales like this. Is this fine ?",
+            "q": "I am getting scales like this. Is this fine?",
             "a": "Yes. Few of them have posted same query before. The response that that is it ok. And it wont affect the result. Spray saline water regularly."
         }
     },
     {
         "id": 2,
         "mal": {
-            "q": "Transplant കഴിഞ്ഞ് ഒരു മാസമായി. ഞാൻ അറിയാതെ സർജറി കഴിഞ്ഞ ഭാഗത്തു ചൊറിഞ്ഞു. പ്രശ്നമാകുമോ ?",
+            "q": "Transplant കഴിഞ്ഞ് ഒരു മാസമായി. ഞാൻ അറിയാതെ സർജറി കഴിഞ്ഞ ഭാഗത്തു ചൊറിഞ്ഞു. പ്രശ്നമാകുമോ?",
             "a": "രണ്ടാഴ്ച കൊണ്ട് ഗ്രാഫ്റ്റ് ഉറക്കുന്നതു കൊണ്ട് വല്ലപ്പോഴുമുള്ള ചൊറിയൽ കുഴപ്പമുണ്ടാക്കാൻ  വഴിയില്ല. എങ്കിലും രണ്ടു മാസം കുറച്ചു ശ്രദ്ധിക്കുക."
         },
         "eng" : {
-            "q": "I did transplant one month ago. I unknowingly scratched the transplanted part. Will it affect my result ?",
+            "q": "I did transplant one month ago. I unknowingly scratched the transplanted part. Will it affect my result?",
             "a": "Since the graft get fixed in 2 weeks, occasional scratching should be fine. But it recommended to take care the transplanted area for at-least 2 months."
         }
     }

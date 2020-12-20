@@ -1,3 +1,7 @@
+const CLINIC_DISPLAY_LENGTH = 5;
+
+let homeClikedStateDefault = true;
+
 window.onload = function() {
         fillListItems('clinics.json', 'clinics', createClinicItem);
         fillListItems('faq.json', 'faq', createFaqItem);
@@ -12,13 +16,25 @@ function gotoClinic(id) {
 }
 
 function fillListItems(url,id, cb) {
-    fetch(url + '?v=2')
-    .then(response => response.json())
-    .then((data = []) => {
-        const dom = data.map(cb).join(' ');
-        var node = document.getElementById(id);
-        node.insertAdjacentHTML('beforeend', dom);
-    });
+    return fetch(url + '?v=2')
+        .then(response => response.json())
+        .then((data = []) => {
+            const dom = data.map(cb).join(' ');
+            var node = document.getElementById(id);
+            node.insertAdjacentHTML('beforeend', dom);
+        });
+}
+
+function clickShowMoreLess() {
+    homeClikedStateDefault = !homeClikedStateDefault;
+    const content = document.getElementById('content');
+    if (homeClikedStateDefault) {
+        content.classList.add('click-state-default');
+        content.classList.remove('click-state-clicked');
+    } else {
+        content.classList.add('click-state-clicked');
+        content.classList.remove('click-state-default');
+    }
 }
 
 function createFaqItem(item) {
@@ -52,9 +68,7 @@ function createFaqItem(item) {
     `;
 }
 
-
-
-function createClinicItem(item) {
+function createClinicItem(item, index) {
     const {
         id,
         name,
@@ -63,9 +77,10 @@ function createClinicItem(item) {
     }  = item;
 
     const place = address.map((add) => add.place || '').join(', ');
+    const className = index >= CLINIC_DISPLAY_LENGTH ? 'hide-at-homepage': '';
 
     return `
-        <div class="clinic-item section-item" onclick="gotoClinic(${id})">
+        <div class="clinic-item section-item ${className}" onclick="gotoClinic(${id})">
             <div class="clinic-img">
                 <img src="icons/${icon}" alt="logo">
             </div>

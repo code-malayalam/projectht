@@ -17,10 +17,15 @@ body {
 .header {
     background-color: #774ef7;
     color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 20px;
-    align-items: center;
+    padding: 10px 20px 20px 20px;
+    position: relative;
+}
+
+.header .subtitle{
+    position: absolute;
+    top: 41px;
+    left: 67px;
+    letter-spacing: .7px;
 }
 
 .header .title{
@@ -28,15 +33,16 @@ body {
     display: flex;
 }
 .content-title {
-    font-size: 26px;
+    font-size: 24px;
 }
 .top {
     box-shadow: 0 0 29px 0 rgba(134,134,134,.25);
 }
 .logo {
     display: flex;
-    align-items: center;
     padding-right: 5px;
+    position: relative;
+    top: 10px;
 }
 .content {
     padding: 20px;
@@ -130,6 +136,14 @@ body {
     font-size: 15px;
 }
 
+.loading {
+    display: flex;
+    justify-content: center;
+}
+
+.loading.hide-loading {
+    display: none;
+}
 
 @media (max-width: 900px) {
     .faq {
@@ -138,5 +152,103 @@ body {
     }
     .clinics {
         width: 100%;
+    }
+    .click-state-default .clinics .clinic-item.hide-at-homepage {
+        display: none;
+    }
+    .more-less {
+        padding-right: 20px;
+        cursor: pointer;
+        font-size: 22px;
+        font-weight: 500;
+        color: white;
+    }
+    .click-state-default .more-less::after {
+        content: 'Show More';
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        background: #774ff7;
+        border-radius: 5px;
+    }
+    .click-state-clicked .more-less::after {
+        content: 'Show Less';
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        background: #774ff7;
+        border-radius: 5px;
+        
+    }
+    .caption {
+        font-size: 12px;
+    }
+    .caption span {
+        font-size: 16px;
+    }
+}
+
+/* LIBRARY */
+.lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ellipsis div {
+    position: absolute;
+    top: 33px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #774ef7;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  }
+  .lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+  }
+  @keyframes lds-ellipsis1 {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes lds-ellipsis3 {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+  @keyframes lds-ellipsis2 {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(24px, 0);
+    }
+  }  
+
+@media (max-width: 290px) {
+    .header .subtitle{
+        display: none ;
     }
 }
