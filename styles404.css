@@ -1,0 +1,37 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.img {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.img img {
+    background: #774ff7;
+    border-radius: 23px;
+    width: 200px;
+    height: 200px;
+}
+
+.error-body {
+    border: 3px solid #774ff7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    color: #774ff7;
+    border-radius: 10px;
+    box-shadow: 0 0 29px 0 rgba(134,134,134,.25);
+}
+
+.error-title {
+    font-size: 38px;
+    font-weight: 600;
+}
+.error-text {
+    font-size: 18px;
+}
