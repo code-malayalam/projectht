@@ -1,0 +1,81 @@
+
+.banner img {
+    max-width: 240px;
+    max-height: 80px;
+}
+.clinic-content {
+    padding: 20px;
+}
+
+.clinic-content-body .labels {
+    display: flex;
+    flex-direction: column;
+}
+
+.labels label {
+    display: flex;
+}
+
+.border-label {
+    border: 1px solid #774ff7;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.clinic-content-body .labels .label1::before {
+    content: " ";
+    background-image: url(icons/yellowtick.png);
+    width: 30px;
+    height: 20px;
+    min-width: 30px;
+    display: block;
+    background-size: 30px 20px;
+}
+
+.clinic-content-body .labels .label2::before {
+    content: " ";
+    background-image: url(icons/singletick.png);
+    width: 30px;
+    height: 20px;
+    min-width: 30px;
+    display: block;
+    background-size: 30px 20px;
+}
+
+.clinic-content-body .labels .label3::before {
+    content: " ";
+    background-image: url(icons/doubletick.png);
+    width: 30px;
+    height: 20px;
+    min-width: 30px;
+    display: block;
+    background-size: 30px 20px;
+}
+.clinic-content-row > div{
+    margin: 20px 0;
+}
+
+.clinic-content-row > div span:first-child{
+    margin: 0 10px;
+}
+
+.clinic-content-title {
+    font-size: 30px;
+}
+
+.clinic-content-row {
+    padding: 10px;
+    box-shadow: 0 0 29px 0 rgba(134,134,134,.25);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.group-info {
+    font-size: 14px;
+}
+
+.group-info div{
+    margin: 5px 0;
+}

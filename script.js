@@ -21,28 +21,28 @@ function loadData(reqs) {
 }
 
 function gotoFaq(id) {
-    window.location = `faq/${id}.html`;
+    window.location = `/faq/${id}.html`;
 }
 
 function gotoClinic(id) {
-    window.location = `clinic/${id}.html`;
+    window.location = `/clinic/${id}.html`;
 }
 
 function gotoAllClinics() {
-    window.location = 'clinics.html';
+    window.location = '/clinics.html';
 }
 
 function gotoAllFaqs() {
-    window.location = 'faqs.html';
+    window.location = '/faqs.html';
 }
 
 function goHome() {
-    window.location = 'index.html';
+    window.location = '/index.html';
 }
 
 function goBack() {
     if(document.referrer.indexOf(window.location.hostname) === -1) {
-        window.location = 'index.html';
+        goHome();
     } else {
         window.history.back();
     }
