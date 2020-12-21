@@ -1,7 +1,7 @@
 window.onload = function() {
     const reqs = [
         {
-            url: 'faq.json',
+            url: '/faq.json',
             id: 'faq',
             cb: createFaqItem
         }

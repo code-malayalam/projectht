@@ -76,7 +76,7 @@ function createFaqItem(item) {
         <div class="faq-item section-item" onclick="gotoFaq(${id})">
             ${img ? `
                 <div class="faq-img">
-                    <img src="images/${img}" alt="logo">
+                    <img src="/images/${img}" alt="logo">
                 </div>
             ` : ''}
             <div>
@@ -105,7 +105,7 @@ function createClinicItem(item, index) {
     return `
         <div class="clinic-item section-item ${className}" onclick="gotoClinic(${id})">
             <div class="clinic-img">
-                <img src="icons/${icon}" alt="logo">
+                <img src="/icons/${icon}" alt="logo">
             </div>
             <div class="clinic-body">
                 <div class="clinic-title">

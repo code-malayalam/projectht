@@ -1,0 +1,36 @@
+.question-list .faq-img {
+    display: none;
+}
+
+.question-list .faq-item-body {
+    display: none;
+}
+.question-list .faq-item-header {
+    margin: 0;
+    font-size: 18px;
+}
+
+.page-faq .content {
+    padding-top: 0;
+}
+
+.faq-sub .faq-item-header {
+    font-size: 18px;
+}
+
+.faq-sub .faq-item-body {
+    font-size: 14px;
+}
+
+.faq-sub .faq-item {
+    cursor: pointer;
+}
+
+.content.question-list {
+    display: block;
+}
+
+.faq-more-title {
+    padding: 10px 20px;
+    font-size: 30px;
+}
