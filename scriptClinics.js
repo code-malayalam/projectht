@@ -1,7 +1,7 @@
 window.onload = function() {
     const reqs = [
         {
-            url: '/clinics.json',
+            url: '/api/clinics.json',
             id: 'clinics',
             cb: createClinicItem
         }

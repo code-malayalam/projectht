@@ -95,17 +95,17 @@ function createClinicItem(item, index) {
     const {
         id,
         name,
-        icon = 'favicon.png',
-        address = []
+        logo = 'favicon.png',
+        places = []
     }  = item;
 
-    const place = address.map((add) => add.place || '').join(', ');
+    const place = places.join(', ');
     const className = index >= CLINIC_DISPLAY_LENGTH ? 'hide-at-homepage': '';
 
     return `
         <div class="clinic-item section-item ${className}" onclick="gotoClinic(${id})">
             <div class="clinic-img">
-                <img src="/icons/${icon}" alt="logo">
+                <img src="/icons/${logo}" alt="logo">
             </div>
             <div class="clinic-body">
                 <div class="clinic-title">

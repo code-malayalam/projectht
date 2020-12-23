@@ -1,26 +1,45 @@
 [
     {
         "name": "La Densitae",
-        "id": 1,
-        "address": [{
-            "place": "Cochin"
-        }],
-        "icon": "ladensitae.png",
+        "id": "la_denisitae",
+        "status": "twoTick",
+        "places": ["Kochi"],
+        "logo": "ladensitae.png",
+        "banner": "ladensitae-banner.png",
+        "info": [
+            [
+                {
+                    "icon": "fa-map-marker",
+                    "label": "Swapnil Enclave, Marine Drive, Kochi, Kerala. 682031.",
+                    "link": false
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 9604117779",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-envelope-open",
+                    "label": "ladensitae.kl@gmail.com",
+                    "link": "mailto"
+                }
+            ]
+        ],
         "doctors": [
             {
-                "id": 0,
-                "type": "Permanant"
+                "id": 1,
+                "isHead": false
             },
             {
-                "id": 1,
-                "type": "Visiting"
+                "id": 2,
+                "isHead": true
             }
         ]
     },
     {
         "name": "Hair Tree",
         "id": 2,
-        "icon": "hairtree.png",
+        "logo": "hairtree.png",
         "address": [
             {
                 "place": "Thrissur"
@@ -29,156 +48,156 @@
                 "place": "Kozhikode"
             }
         ],
-        "doctors": {
+        "doctors": [{
             "id": 1,
             "type": "Visiting"
-        }
+        }]
     },
     {
         "name": "Turkey Cosmetic and Hair Transplant Center",
         "id": 3,
-        "icon": "turkey.png",
+        "logo": "turkey.png",
         "address": [
             {
                 "place": "Cochin"
             }
         ],
-        "doctors": {
+        "doctors": [{
             "id": 1,
             "type": "Visiting"
-        }
+        }]
     },
     {
         "name": "DHI",
         "id": 6,
-        "icon": "dhi.png",
+        "logo": "dhi.png",
         "website": "https://www.dhiindia.com/",
         "address": [
             {
                 "place": "Cochin"
             }
         ],
-        "doctors": {
+        "doctors": [{
             "id": 1,
             "type": "Visiting"
-        }
+        }]
     },
     {
         "name": "Hair O Craft",
         "id": 9,
-        "icon": "hairocraft.png",
+        "logo": "hairocraft.png",
         "website": "https://www.hairocraft.com/",
         "address": [
             {
                 "place": "Cochin, Trivandrum, Thrissur, Manjeri, Kozhikode, Kottayam"
             }
         ],
-        "doctors": {
+        "doctors": [{
             "id": 1,
             "type": "Visiting"
-        }
+        }]
     },
     {
         "name": "Hair Graaft",
         "id": 9,
-        "icon": "hairgraaft.png",
+        "logo": "hairgraaft.png",
         "website": "https://hairgraaft.com/",
         "address": [
             {
                 "place": "Changanacherry"
             }
         ],
-        "doctors": {
+        "doctors": [{
             "id": 1,
             "type": "Visiting"
-        }
+        }]
     },
     {
         "name": "Hair O Dent",
         "id": 4,
-        "icon": "hairodent.png",
+        "logo": "hairodent.png",
         "address": [
             {
                 "place": "Cochin"
             }
         ],
-        "doctors": {
+        "doctors": [{
             "id": 1,
             "type": "Visiting"
-        }
+        }]
     },
     {
         "name": "Medlounges",
         "id": 5,
-        "icon": "medlounges.png",
+        "logo": "medlounges.png",
         "address": [
             {
                 "place": "Thiruvalla"
             }
         ],
-        "doctors": {
+        "doctors": [{
             "id": 1,
             "type": "Visiting"
-        }
+        }]
     },
     {
         "name": "VPlant",
         "id": 5,
-        "icon": "vplant.png",
+        "logo": "vplant.png",
         "website": "https://vplanthairclinics.com/",
         "address": [
             {
                 "place": "Cochin"
             }
         ],
-        "doctors": {
+        "doctors": [{
             "id": 1,
             "type": "Visiting"
-        }
+        }]
     },
     {
         "name": "CI Cosmetic Clinic",
         "id": 9,
-        "icon": "ci.png",
+        "logo": "ci.png",
         "website": "https://www.cutisinternational.com/",
         "address": [
             {
                 "place": "Cochin, Trivandrum, Thrissur, Kottakkal, Kozhikode"
             }
         ],
-        "doctors": {
+        "doctors": [{
             "id": 1,
             "type": "Visiting"
-        }
+        }]
     },
     {
         "name": "Madari",
         "id": 7,
-        "icon": "madari.png",
+        "logo": "madari.png",
         "website": "https://madari-dental-clinic-hair-transplant.business.site/",
         "address": [
             {
                 "place": "Nilambur"
             }
         ],
-        "doctors": {
+        "doctors": [{
             "id": 1,
             "type": "Visiting"
-        }
+        }]
     },
     {
         "name": "HPC Hair Transplant Centre",
         "id": 8,
-        "icon": "hpc.png",
+        "logo": "hpc.png",
         "website": "https://www.hpchairtransplant.com/",
         "address": [
             {
                 "place": "Cochin"
             }
         ],
-        "doctors": {
+        "doctors": [{
             "id": 1,
             "type": "Visiting"
-        }
+        }]
     }
 ]

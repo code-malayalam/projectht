@@ -1,11 +1,11 @@
 window.onload = function() {
     const reqs = [
         {
-            url: 'clinics.json',
+            url: '/api/clinics.json',
             id: 'clinics',
             cb: createClinicItem
         }, {
-            url: 'faq.json',
+            url: '/api/faq.json',
             id: 'faq',
             cb: createFaqItem
         }
