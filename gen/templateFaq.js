@@ -49,6 +49,8 @@ function template1(faq, relatedFaqs = []) {
                 <meta property="og:type" content="article"/>
                 <meta property="og:site_name" content="HT Malayalam"/>
                 <meta property="og:url" content="https://htmalayalam.in/faq/faq${id}.html"/>
+                ${img ? `<meta property="og:image" content="https://htmalayalam.in/images/${img}"/>` : ''}
+                
 
                 <script src="gtag.js"></script>
 

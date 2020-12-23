@@ -99,13 +99,13 @@ function template1(clinic, docData = []) {
             <meta property="og:type" content="article"/>
             <meta property="og:site_name" content="HT Malayalam"/>
             <meta property="og:url" content="https://htmalayalam.in/clinic/${id}.html">
+            ${banner ? `<meta property="og:image" content="https://htmalayalam.in/icons/${banner}"/>` : ''}
 
-        
             <link rel="stylesheet" href="/styles.css?v=2">
             <link rel="stylesheet" href="/stylesClinicGen.css?v=2">
             <script src="/script.js?v=2"></script>
         </head>
-        <body id=${id}>
+        <body id="${id}">
             <div class="top">
                 <div class="header">
                     <div class="title"> 
@@ -166,9 +166,7 @@ function template1(clinic, docData = []) {
 
                         ${doctors.map((doc) => {
                             const docInfo = getDocInfo(doc.id, docData);
-                            console.log(docInfo);
                             const infoText = getInfoText(docInfo);
-                            console.log('****', infoText, typeof infoText);
                             const headText = doc.isHead ? '(സെന്റർ ഇൻചാർജ്)' : '';
                             return `
                                 <div>

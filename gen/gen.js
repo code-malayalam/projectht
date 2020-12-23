@@ -1,4 +1,3 @@
-console.log('Hello');
 
 const templateClinic = require('./templateClinic');
 const templateFaq = require('./templateFaq');
@@ -22,7 +21,7 @@ function generateClinicFiles() {
     const content = templateClinic(item, docData);
     fs.writeFile(dirName + item.id + '.html', content, function (err) {
       if (err) throw err;
-      console.log('Saved!');
+      console.log('Saved Clinic ', item.id);
     });
 
   });
@@ -38,7 +37,7 @@ function generateFaqFiles() {
     const content = templateFaq(item, subFaqs);
     fs.writeFile(dirName + item.id + '.html', content, function (err) {
       if (err) throw err;
-      console.log('Saved!');
+      console.log('Saved! Faq', item.id);
     });
 
   });
@@ -46,4 +45,4 @@ function generateFaqFiles() {
 }
 
 generateFaqFiles();
-// generateClinicFiles();
+generateClinicFiles();
