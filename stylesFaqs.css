@@ -17,6 +17,7 @@
 
 .page-faq .content .first-item{
     cursor: initial;
+    border: none;
 }
 .page-faq .content .first-item .faq-item-header:hover {
     color: initial;
@@ -31,10 +32,11 @@
 
 .faq-sub .faq-item {
     cursor: pointer;
+    border-left: 3px solid #774ff7;
 }
 
-faq-sub {
-    margin-left: 100px;
+.faq-sub {
+    margin-left: 20px;
 }
 
 .content.question-list {

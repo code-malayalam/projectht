@@ -160,6 +160,14 @@ body {
     display: flex;
     padding: 10px 20px;
 }
+.buttons.share {
+    flex-direction: row-reverse;
+}
+.buttons.share a {
+    flex-grow: 0;
+    flex-direction: column-reverse;
+}
+
 .buttons a{
     flex-grow: 1;
     text-decoration: none;
