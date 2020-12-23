@@ -16,7 +16,9 @@
     width: 200px;
     height: 200px;
 }
-
+.error {
+    margin-bottom: 100px;
+}
 .error-body {
     border: 3px solid #774ff7;
     display: flex;

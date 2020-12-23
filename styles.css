@@ -156,6 +156,26 @@ body {
     display: none;
 }
 
+.buttons {
+    display: flex;
+    padding: 10px 20px;
+}
+.buttons a{
+    flex-grow: 1;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: #774ff7;
+    border-radius: 5px;
+    color: white;
+}
+
+.buttons a:first-child{
+    margin-right: 10px;
+}
+
+
 @media (max-width: 900px) {
     .caption {
         font-size: 12px;
