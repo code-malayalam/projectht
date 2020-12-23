@@ -52,7 +52,7 @@ function template1(faq, relatedFaqs = []) {
                 ${img ? `<meta property="og:image" content="https://htmalayalam.in/images/${img}"/>` : ''}
                 
 
-                <script src="gtag.js"></script>
+                <script src="/gtag.js"></script>
 
                 <link rel="stylesheet" href="/styles.css?v=2">
                 <link rel="stylesheet" href="/stylesFaqs.css?v=2">

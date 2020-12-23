@@ -84,7 +84,7 @@
     },
     {
         "name": "Hair O Craft",
-        "id": 9,
+        "id": 92,
         "logo": "hairocraft.png",
         "website": "https://www.hairocraft.com/",
         "address": [
@@ -142,7 +142,7 @@
     },
     {
         "name": "VPlant",
-        "id": 5,
+        "id": 51,
         "logo": "vplant.png",
         "website": "https://vplanthairclinics.com/",
         "address": [
@@ -157,7 +157,7 @@
     },
     {
         "name": "CI Cosmetic Clinic",
-        "id": 9,
+        "id": 93,
         "logo": "ci.png",
         "website": "https://www.cutisinternational.com/",
         "address": [

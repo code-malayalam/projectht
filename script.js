@@ -2,12 +2,21 @@ const CLINIC_DISPLAY_LENGTH = 5;
 
 let homeClikedStateDefault = true;
 
-function loadData(reqs) {
+function loadData(reqs, filter) {
     const all = reqs.map((req) => {
         return fetch(req.url + '?v=2')
-            .then(response => response.json())
-            .catch(() => {
-                console.log('API Error');
+            .then((response) => {
+                
+                return response.json();
+            })
+            .then((data) => {
+                if(filter) {
+                    return filter(data);
+                }
+                return data;
+            })
+            .catch((err) => {
+                console.log(err);
                 return [];
             });
     });
