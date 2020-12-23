@@ -73,7 +73,7 @@ function createFaqItem(item) {
     } = mal;
 
     return `
-        <div class="faq-item section-item" onclick="gotoFaq(${id})">
+        <div class="faq-item section-item" onclick="gotoFaq('${id}')">
             ${img ? `
                 <div class="faq-img">
                     <img src="/images/${img}" alt="logo">
@@ -103,7 +103,7 @@ function createClinicItem(item, index) {
     const className = index >= CLINIC_DISPLAY_LENGTH ? 'hide-at-homepage': '';
 
     return `
-        <div class="clinic-item section-item ${className}" onclick="gotoClinic(${id})">
+        <div class="clinic-item section-item ${className}" onclick="gotoClinic('${id}')">
             <div class="clinic-img">
                 <img src="/icons/${logo}" alt="logo">
             </div>

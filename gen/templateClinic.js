@@ -35,30 +35,32 @@ function getDocInfo(id, docData  = []) {
 }
 
 function getInfoText(info) {
-
+    debugger;
     const {
         label = '',
         link,
         more = ''
     } = info;
 
+    const moreLabel = more ? `(${more})` : '';
+
     if(link === true) {
-        return `<a href="${label}">${label} (${more})</a>`
+        return `<a target="_blank" href="${label}">${label} ${moreLabel}</a>`
     }
 
     if(link === 'mailto') {
-        return `<a href="mailto:${label}">${label} (${more})</a>`
+        return `<a target="_blank" href="mailto:${label}">${label} ${moreLabel}</a>`
     }
 
     if(link === 'tel') {
-        return `<a href="tel:${label}">${label} (${more})</a>`
+        return `<a target="_blank" href="tel:${label}">${label} ${moreLabel}</a>`
     }
 
     if(typeof link === "string") {
-        return `<a href="${link}">${label} (${more})</a>`
+        return `<a target="_blank" href="${link}">${label} ${moreLabel}</a>`
     }
 
-    return label + ' ' + more;
+    return label + ' ' + moreLabel;
 
 
 }
@@ -163,8 +165,10 @@ function template1(clinic, docData = []) {
                     <div class="clinic-doctors clinic-content-row">
 
                         ${doctors.map((doc) => {
-                            const docInfo = getDocInfo(id, docData);
+                            const docInfo = getDocInfo(doc.id, docData);
+                            console.log(docInfo);
                             const infoText = getInfoText(docInfo);
+                            console.log('****', infoText, typeof infoText);
                             const headText = doc.isHead ? '(സെന്റർ ഇൻചാർജ്)' : '';
                             return `
                                 <div>
@@ -174,7 +178,7 @@ function template1(clinic, docData = []) {
                                     <span> ${infoText} ${headText}</span>
                                 </div>
                             `;
-                        })}
+                        }).join('\n')}
 
                         ${doctors.length === 0 ? `
                             <div class="clinic-no-doctors border-label">

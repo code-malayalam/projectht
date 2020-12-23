@@ -6,21 +6,14 @@ let docData = require('../api/doctors.json');
 
 console.log(docData);
 
-// console.log(template1());
-
-
 var fs = require('fs');
-
-// //create a file named mynewfile1.txt:
-// fs.writeFile('mynewfile1.txt', 'Hello content!', function (err) {
-//   if (err) throw err;
-//   console.log('Saved!');
-// });
-
+const fsExtra = require('fs-extra');
+const dirName = '../clinic/'
+fsExtra.emptyDirSync(dirName);
 
 clinics.forEach((item) => {
   const content = templateClinic(item, docData);
-  fs.writeFile('../clinic/' + item.id + '.html', content, function (err) {
+  fs.writeFile(dirName + item.id + '.html', content, function (err) {
     if (err) throw err;
     console.log('Saved!');
   });

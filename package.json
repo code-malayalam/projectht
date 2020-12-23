@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.html",
   "dependencies": {
+    "fs-extra": "9.0.1",
     "http-server": "^0.12.3"
   },
   "devDependencies": {},
