@@ -9,7 +9,7 @@ window.onload = function() {
     loadData(reqs, function (rec = []) {
         const id = document.body.id || '';
         const regex = id.match(/page-faq-(.*)/);
-        if(regex.length >= 2) {
+        if(regex && regex.length >= 2) {
             const faqId = parseInt(regex[1]) || 0;
             const faq = rec.find((item) => item.id === faqId);
             if(faq) {
