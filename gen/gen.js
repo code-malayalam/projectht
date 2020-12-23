@@ -1,21 +1,49 @@
 console.log('Hello');
 
 const templateClinic = require('./templateClinic');
-let clinics = require('../api/clinics.json');
-let docData = require('../api/doctors.json');
+const templateFaq = require('./templateFaq');
 
-console.log(docData);
+const clinics = require('../api/clinics.json');
+const docData = require('../api/doctors.json');
+const faqData = require('../api/faq.json');
 
-var fs = require('fs');
+const fs = require('fs');
 const fsExtra = require('fs-extra');
-const dirName = '../clinic/'
-fsExtra.emptyDirSync(dirName);
 
-clinics.forEach((item) => {
-  const content = templateClinic(item, docData);
-  fs.writeFile(dirName + item.id + '.html', content, function (err) {
-    if (err) throw err;
-    console.log('Saved!');
+function getSubFaqs(ids = [], allData = []) {
+  return allData.filter((item) => ids.indexOf(item.id) !== -1);
+}
+
+function generateClinicFiles() {
+  const dirName = '../clinic/'
+  fsExtra.emptyDirSync(dirName);
+
+  clinics.forEach((item) => {
+    const content = templateClinic(item, docData);
+    fs.writeFile(dirName + item.id + '.html', content, function (err) {
+      if (err) throw err;
+      console.log('Saved!');
+    });
+
   });
+  
+}
 
-});
+function generateFaqFiles() {
+  const dirName = '../faq/'
+  fsExtra.emptyDirSync(dirName);
+  
+  faqData.forEach((item) => {
+    const subFaqs = getSubFaqs(item.sub, faqData);
+    const content = templateFaq(item, subFaqs);
+    fs.writeFile(dirName + item.id + '.html', content, function (err) {
+      if (err) throw err;
+      console.log('Saved!');
+    });
+
+  });
+  
+}
+
+generateFaqFiles();
+// generateClinicFiles();

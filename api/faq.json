@@ -9,7 +9,8 @@
         "eng" : {
             "q": "I am getting scales like this. Is this fine?",
             "a": "Yes. Few of them have posted same query before. The response that that is it ok. And it wont affect the result. Spray saline water regularly."
-        }
+        },
+        "sub": [1, 2]
     },
     {
         "id": 2,

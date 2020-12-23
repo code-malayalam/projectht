@@ -5,7 +5,11 @@ let homeClikedStateDefault = true;
 function loadData(reqs) {
     const all = reqs.map((req) => {
         return fetch(req.url + '?v=2')
-            .then(response => response.json());
+            .then(response => response.json())
+            .catch(() => {
+                console.log('API Error');
+                return [];
+            });
     });
 
     Promise.all(all)

@@ -98,7 +98,7 @@ function template1(clinic, docData = []) {
             <meta property="og:description" content="${name} - ${place}">
             <meta property="og:type" content="article"/>
             <meta property="og:site_name" content="HT Malayalam"/>
-            <meta property="og:url" content="https://htmalayalam.in/clinic/clinic1.html">
+            <meta property="og:url" content="https://htmalayalam.in/clinic/${id}.html">
 
         
             <link rel="stylesheet" href="/styles.css?v=2">

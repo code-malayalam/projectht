@@ -12,8 +12,15 @@
 
 .page-faq .content {
     padding-top: 0;
+    flex-direction: row;
 }
 
+.page-faq .content .first-item{
+    cursor: initial;
+}
+.page-faq .content .first-item .faq-item-header:hover {
+    color: initial;
+}
 .faq-sub .faq-item-header {
     font-size: 18px;
 }
@@ -24,6 +31,10 @@
 
 .faq-sub .faq-item {
     cursor: pointer;
+}
+
+faq-sub {
+    margin-left: 100px;
 }
 
 .content.question-list {
