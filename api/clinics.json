@@ -71,7 +71,18 @@
                     "icon": "fa-globe",
                     "label": "http://www.turkeyhairtransplantcentre.com",
                     "link": true
+                },
+                {
+                    "icon": "fa-facebook",
+                    "label": "https://www.facebook.com/turkeyhairtransplantofficial",
+                    "link": true
+                },
+                {
+                    "icon": "fa-instagram",
+                    "label": "https://www.instagram.com/turkeyhairtransplantofficial",
+                    "link": true
                 }
+
             ]
         ],
         "doctors": [
@@ -218,49 +229,280 @@
         "doctors": []
     },
     {
-        "name": "DHI",
-        "id": 6,
+        "name": "DHI India",
+        "id": "dhi_india",
+        "places": ["Kochi", "Kozhikode"],
         "logo": "dhi.png",
-        "website": "https://www.dhiindia.com/",
-        "address": [
-            {
-                "place": "Cochin"
-            }
+        "banner": "dhi-banner.png",
+        "doctorsLink": "https://www.dhiindia.com/our-team",
+        "info": [
+            [
+                {
+                    "icon": "fa-phone",
+                    "label": "1800 103 9300",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-envelope-open",
+                    "label": "info@dhiindia.com",
+                    "link": "mailto"
+                },
+                {
+                    "icon": "fa-envelope-open",
+                    "label": "enquiry@dhiindia.com",
+                    "link": "mailto"
+                },
+                {
+                    "icon": "fa-globe",
+                    "label": "https://www.dhiindia.com",
+                    "link": true
+                }
+            ],
+            [
+                {
+                    "label": "Kochi",
+                    "highlight": true
+                },
+                {
+                    "icon": "fa-map-marker",
+                    "label": "Oliva Skin & Hair Clinic, Kadavanthra First Floor, Zodiac Square, Sahodaran Ayyappan Rd. Kadavanthra, Kochi 682020."
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 9121177792",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-globe",
+                    "label": "https://www.dhiindia.com/hair-transplant-clinic-kochi",
+                    "link": true
+                }
+            ],
+            [
+                {
+                    "label": "Kozhikode",
+                    "highlight": true
+                },
+                {
+                    "icon": "fa-map-marker",
+                    "label": "29/909 C, First Floor, Above Linen Club, near Shobika Wedding Centre, Patteri, Kuthiravattom, Kozhikode 673017."
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 9560305391",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-globe",
+                    "label": "https://www.dhiindia.com/hair-transplant-clinic-calicut",
+                    "link": true
+                }
+            ]
         ],
-        "doctors": [{
-            "id": 1,
-            "type": "Visiting"
-        }]
+        "doctors": []
     },
     {
         "name": "Hair O Craft",
-        "id": 92,
+        "id": "hairocraft",
+        "places": ["Kochi", "Kozhikode", "Thrissur", "Kottayam", "Manjeri", "Thiruvananthapuram"],
         "logo": "hairocraft.png",
-        "website": "https://www.hairocraft.com/",
-        "address": [
-            {
-                "place": "Cochin, Trivandrum, Thrissur, Manjeri, Kozhikode, Kottayam"
-            }
-        ],
-        "doctors": [{
-            "id": 1,
-            "type": "Visiting"
-        }]
-    },
+        "banner": "hairocraft-banner.png",
+        "info": [
+            [
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 43434300",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-whatsapp",
+                    "label": "+91 9072243344",
+                    "link":"tel"
+                },
+                {
+                    "icon": "fa-globe",
+                    "label": "https://www.hairocraft.com",
+                    "link": true
+                },
+                {
+                    "icon": "fa-facebook",
+                    "label": "https://www.facebook.com/hairocraft",
+                    "link": true
+                },
+                {
+                    "icon": "fa-youtube",
+                    "label": "https://www.youtube.com/channel/UCG23Mo2KUVb_GwPpQuaVFOA",
+                    "link": true
+                }
+            ],
+            [
+                {
+                    "label": "Kochi",
+                    "highlight": true
+                },
+                {
+                    "icon": "fa-map-marker",
+                    "label": "27/311 B, 1st floor, GCDA shopping complex, Panampilly Nagar, Kochi, Kerala."
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 9895706794",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-globe",
+                    "label": "https://www.hairocraft.com/location/kochi",
+                    "link": true
+                }
+            ],
+            [
+                {
+                    "label": "Kozhikode",
+                    "highlight": true
+                },
+                {
+                    "icon": "fa-map-marker",
+                    "label": "1st Floor, Empora Aster Building, Malaparambu Junction, Kozhikode."
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 43434300",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-globe",
+                    "label": "https://www.hairocraft.com/location/kozhikode",
+                    "link": true
+                }
+            ],
+            [
+                {
+                    "label": "Thrissur",
+                    "highlight": true
+                },
+                {
+                    "icon": "fa-map-marker",
+                    "label": "1st Floor, George Hub, Kuriachira, Thrissur. 680006."
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 9895706794",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-globe",
+                    "label": "https://www.hairocraft.com/location/thrissur/",
+                    "link": true
+                }
+            ],
+            [
+                {
+                    "label": "Kottayam",
+                    "highlight": true
+                },
+                {
+                    "icon": "fa-map-marker",
+                    "label": "Door No. 76B1, First Floor, Cherupallil building, Muttambalam P. O, Kanjikuzhi, Kottayam, Pin: 686004"
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 9895706794",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-globe",
+                    "label": "https://www.hairocraft.com/location/kottayam/",
+                    "link": true
+                }
+            ],
+            [
+                {
+                    "label": "Manjeri",
+                    "highlight": true
+                },
+                {
+                    "icon": "fa-map-marker",
+                    "label": "Building No. 33/2018 G, Opposite to Tree G eye Care Hospital, T. B. Road, Manjeri, Malappuram."
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 9946622199",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-globe",
+                    "label": "https://www.hairocraft.com/location/manjeri",
+                    "link": true
+                }
+            ],
+            [
+                {
+                    "label": "Thiruvananthapuram",
+                    "highlight": true
+                },
+                {
+                    "icon": "fa-map-marker",
+                    "label": "1'st Floor, Shine Towers, T.C. 16/2190,Pattom Medical College Road(Pazhaya Road),Murinjapalam, Thiruvananthapuram 695004."
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 9400243863",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-globe",
+                    "label": "https://www.hairocraft.com/location/thiruvananthapuram",
+                    "link": true
+                }
+            ]
+        ]
+    },  
     {
-        "name": "Hair Graaft",
-        "id": 9,
+        "name": "Hairgraaft",
+        "id": "hairgraaft",
+        "places": ["Changanacherry"],
         "logo": "hairgraaft.png",
-        "website": "https://hairgraaft.com/",
-        "address": [
-            {
-                "place": "Changanacherry"
-            }
+        "banner": "hairgraaft-banner.png",
+        "info": [
+            [
+                {
+                    "icon": "fa-map-marker",
+                    "label": "Hairgraaft, Kokattukizhakathil, Laikkad, Changanacherry, Kerala.",
+                    "link": false
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 9188652209",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 97479 02209",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-envelope-open",
+                    "label": "info@hairgraaft.com",
+                    "link": "mailto"
+                },
+                {
+                    "icon": "fa-globe",
+                    "label": "https://hairgraaft.com",
+                    "link": true
+                },
+                {
+                    "icon": "fa-facebook",
+                    "label": "https://www.facebook.com/hairgraaft.Kerala",
+                    "link": true
+                },
+                {
+                    "icon": "fa-instagram",
+                    "label": "https://www.instagram.com/hairgraaft",
+                    "link": true
+                }
+            ]
         ],
-        "doctors": [{
-            "id": 1,
-            "type": "Visiting"
-        }]
+        "doctors": []
     },
     {
         "name": "Hair O Dent",
