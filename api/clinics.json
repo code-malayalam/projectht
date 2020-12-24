@@ -643,19 +643,88 @@
         ]
     },
     {
-        "name": "VPlant",
-        "id": 51,
+        "name": "V PLANT",
+        "id": "vplant",
+        "places": ["Kochi", "Kozhikode"],
         "logo": "vplant.png",
-        "website": "https://vplanthairclinics.com/",
-        "address": [
-            {
-                "place": "Cochin"
-            }
+        "banner": "vplant-banner.png",
+        "info": [
+            [
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 8448444713",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-envelope-open",
+                    "label": "info@vplanthairclinics.com",
+                    "link": "mailto"
+                },
+                {
+                    "icon": "fa-globe",
+                    "label": "https://vplanthairclinics.com",
+                    "link": true
+                },
+                {
+                    "icon": "fa-facebook",
+                    "label": "https://www.facebook.com/Vplant.HairClinic",
+                    "link": true
+                },
+                {
+                    "icon": "fa-instagram",
+                    "label": "https://www.instagram.com/vplanthairclinics",
+                    "link": true
+                },
+                {
+                    "icon": "fa-twitter",
+                    "label": "https://twitter.com/VplantClinics",
+                    "link": true
+                },
+                {
+                    "icon": "fa-linkedin",
+                    "label": "https://www.linkedin.com/company/vplanthairclinics",
+                    "link": true
+                },
+                {
+                    "icon": "fa-youtube",
+                    "label": "https://www.youtube.com/channel/UCNs_JeHXSoZYsvaBydnpmKQ",
+                    "link": true
+                }
+            ],
+            [
+                {
+                    "label" : "Kochi",
+                    "highlight": true
+                },
+                {
+                    "icon": "fa-map-marker",
+                    "label": "1st Floor, Dorai Swami Road, Opp My Kingdom, Mahatma Gandhi Road, Kochi",
+                    "link": false
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 8138910365",
+                    "link": "tel"
+                }
+            ],
+            [
+                {
+                    "label" : "Kozhikode",
+                    "highlight": true
+                },
+                {
+                    "icon": "fa-map-marker",
+                    "label": "4th Floor, Orbit Plaza, Thondayad, Mavoor Road chevarmbalam, Post Kozhikode",
+                    "link": false
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 9605199799",
+                    "link": "tel"
+                }
+            ]
         ],
-        "doctors": [{
-            "id": 1,
-            "type": "Visiting"
-        }]
+        "doctors": []
     },
     {
         "name": "CI Cosmetic Clinic",
