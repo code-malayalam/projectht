@@ -1,4 +1,9 @@
 
+const {
+    CLINIC_BASE_URL,
+    ICON_BASE_URL
+} = require('./constants');
+
 function getStatusDom(status) {
 
     switch (status) {
@@ -80,6 +85,9 @@ function template1(clinic, docData = []) {
 
     const place = places.join(', ');
 
+    const contentUrl = `${CLINIC_BASE_URL}/${id}.html`;
+    const encodedUrl = encodeURIComponent(contentUrl);
+
     return `
     <!DOCTYPE html>
     <html lang="en">
@@ -98,8 +106,8 @@ function template1(clinic, docData = []) {
             <meta property="og:description" content="${name} - ${place}">
             <meta property="og:type" content="article"/>
             <meta property="og:site_name" content="HT Malayalam"/>
-            <meta property="og:url" content="https://htmalayalam.in/clinic/${id}.html">
-            ${banner ? `<meta property="og:image" content="https://htmalayalam.in/icons/${banner}"/>` : ''}
+            <meta property="og:url" content="${contentUrl}">
+            ${banner ? `<meta property="og:image" content="${ICON_BASE_URL}/${banner}"/>` : ''}
 
             <link rel="stylesheet" href="/styles.css?v=2">
             <link rel="stylesheet" href="/stylesClinicGen.css?v=2">
@@ -200,6 +208,12 @@ function template1(clinic, docData = []) {
                         </span>
                     </div>
     
+                </div>
+                <div class="buttons share">
+                    <a href="${encodedUrl}">
+                        <i class="fa fa-telegram fa-lg" aria-hidden="true"></i>
+                        Share to Telegram
+                    </a>
                 </div>
             </div>
             <div class="buttons">

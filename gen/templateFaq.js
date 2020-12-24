@@ -1,4 +1,9 @@
 
+const {
+    FAQ_BASE_URL,
+    IMAGE_BASE_URL
+} = require('./constants');
+
 function getQuesSection(q = '', a = '', img) {
     return `
         ${
@@ -32,6 +37,9 @@ function template1(faq, relatedFaqs = []) {
         a
     } = mal;
 
+    const contentUrl = `${FAQ_BASE_URL}/faq${id}.html`;
+    const encodedUrl = encodeURIComponent(contentUrl);
+
     return `
         <!DOCTYPE html>
         <html lang="en">
@@ -41,6 +49,7 @@ function template1(faq, relatedFaqs = []) {
                 <link rel="shortcut icon" type="image/jpg" href="/favicon.png"/>
                 <link rel="preconnect" href="https://fonts.gstatic.com">
                 <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+                <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
                 <title>HT MALAYALAM</title>
                 <script async src="https://www.googletagmanager.com/gtag/js?id=G-826R4FRRS7"></script>
 
@@ -48,8 +57,8 @@ function template1(faq, relatedFaqs = []) {
                 <meta property="og:description" content="${a}">
                 <meta property="og:type" content="article"/>
                 <meta property="og:site_name" content="HT Malayalam"/>
-                <meta property="og:url" content="https://htmalayalam.in/faq/faq${id}.html"/>
-                ${img ? `<meta property="og:image" content="https://htmalayalam.in/images/${img}"/>` : ''}
+                <meta property="og:url" content="${contentUrl}"/>
+                ${img ? `<meta property="og:image" content="${IMAGE_BASE_URL}/${img}"/>` : ''}
                 
 
                 <script src="/gtag.js"></script>
@@ -111,8 +120,15 @@ function template1(faq, relatedFaqs = []) {
                             `;
                         }).join('\n')}
                     </div>
+                    
                 </div>
 
+                <div class="buttons share">
+                    <a href="${encodedUrl}">
+                        <i class="fa fa-telegram fa-lg" aria-hidden="true"></i>
+                        Share to Telegram
+                    </a>
+                </div>
                 <div class="faq-more-title">
                     കൂടുതൽ ചോദ്യങ്ങൾ 
                 </div>
@@ -121,6 +137,7 @@ function template1(faq, relatedFaqs = []) {
                         <!-- Script fills here -->
                     </div>
                 </div>
+
                 
                 <div class="buttons">
                     <a href="/clinics.html"> ക്ലിനിക്കുകൾ </a>
