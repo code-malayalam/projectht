@@ -79,6 +79,7 @@ function template1(clinic, docData = []) {
         places = [],
         info = [],
         banner,
+        bannerColor = 'white',
         doctors = [],
         doctorsLink
     } = clinic;
@@ -134,7 +135,7 @@ function template1(clinic, docData = []) {
                 </div>
             </div>
             <div class="clinic-content">
-                <div class="banner" style="background: white;">
+                <div class="banner" style="background: ${bannerColor};">
                     <img src="/icons/${banner}" alt="logo">
                 </div>
                 <div class="clinic-content-body">

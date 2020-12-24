@@ -34,5 +34,31 @@
         "id" : 7,
         "label": "Dr Vishnunath K.R",
         "more": "MBBS , Cosmetology & Trichology"
+    },
+    {
+        "id" : 8,
+        "label": "Dr Sreenath S"
+    },
+    {
+        "id" : 9,
+        "label": "Dr Athira Sreenath"
+    },
+    {
+        "id" : 10,
+        "label": "Dr. Joseph Thomas",
+        "more": "MBBS, FAM",
+        "link": "http://www.medlounges.com/joseph-thomas.html"
+    },
+    {
+        "id" : 11,
+        "label": "Dr. Jai Kumar Pilllai",
+        "more": "MBBS MD DVL (Dermatology, Venereolgy & Leprosy)",
+        "link": "http://www.medlounges.com/jai-kumar-pillai.html"
+    },
+    {
+        "id" : 12,
+        "label": "Dr. Thajnees K S",
+        "more": "MBBS, FAM (fellowship in aesthetic medicine)",
+        "link": "http://www.medlounges.com/thajness.html"
     }
 ]

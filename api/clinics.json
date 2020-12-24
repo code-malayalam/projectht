@@ -506,31 +506,141 @@
     },
     {
         "name": "Hair O Dent",
-        "id": 4,
+        "id": "hairodent",
+        "places": ["Kochi"],
         "logo": "hairodent.png",
-        "address": [
-            {
-                "place": "Cochin"
-            }
+        "banner": "hairodent-banner.png",
+        "doctorsLink": "https://www.hairodent.com/doctors",
+        "info": [
+            [
+                {
+                    "icon": "fa-map-marker",
+                    "label": "H cross road, Indira Nagar, Kadavanthra, Kochi.",
+                    "link": false
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 8848967460",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-envelope-open",
+                    "label": "hairodent@gmail.com",
+                    "link": "mailto"
+                },
+                {
+                    "icon": "fa-globe",
+                    "label": "https://www.hairodent.com",
+                    "link": true
+                },
+                {
+                    "icon": "fa-facebook",
+                    "label": "https://www.facebook.com/HairODent",
+                    "link": true
+                },
+                {
+                    "icon": "fa-youtube",
+                    "label": "https://www.youtube.com/channel/UCMZwlV1atody8kVL0w2zOLA",
+                    "link": true
+                }
+            ]
         ],
-        "doctors": [{
-            "id": 1,
-            "type": "Visiting"
-        }]
+        "doctors": [
+            {
+                "id": 8
+            },
+            {
+                "id": 9
+            }
+        ]
     },
     {
         "name": "Medlounges",
-        "id": 5,
+        "id": "medlounges",
+        "places": ["Thiruvalla", "Kochi"],
         "logo": "medlounges.png",
-        "address": [
-            {
-                "place": "Thiruvalla"
-            }
+        "banner": "medlounges-banner.png",
+        "bannerColor": "#743252",
+        "doctorsLink": "http://www.medlounges.com/team.html",
+        "info": [
+            [
+                {
+                    "icon": "fa-envelope-open",
+                    "label": "info@medlounges.com",
+                    "link": "mailto"
+                },
+                {
+                    "icon": "fa-globe",
+                    "label": "http://www.medlounges.com",
+                    "link": true
+                },
+                {
+                    "icon": "fa-instagram",
+                    "label": "https://www.instagram.com/medlounges",
+                    "link": true
+                },
+                {
+                    "icon": "fa-linkedin",
+                    "label": "https://www.linkedin.com/company/medlounges-wellness",
+                    "link": true
+                }
+
+            ],
+            [
+                {
+                    "label" : "Thiruvalla",
+                    "highlight": true
+                },
+                {
+                    "icon": "fa-map-marker",
+                    "label": "Medlounges Health Care & Wellness Centre, Perumthuruthy PO Ezhinijillam, Thiruvalla, 689107.",
+                    "link": false
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "0469 2645454",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "0469 2645080",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 79941 69191",
+                    "link": "tel"
+                }
+            ],
+            [
+                {
+                    "label" : "Kochi",
+                    "highlight": true
+                },
+                {
+                    "icon": "fa-map-marker",
+                    "label": "1st Floor, M Square Building, Vallathol Jn, Seaport - Airport Rd, Vidya Nagar Colony, Thrikkakara, Kochi  682021.",
+                    "link": false
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 96568 22333",
+                    "link": "tel"
+                }
+            ]
         ],
-        "doctors": [{
-            "id": 1,
-            "type": "Visiting"
-        }]
+        "doctors": [
+            {
+                "id": 10,
+                "isHead": true
+            },
+            {
+                "id": 11
+            },
+            {
+                "id": 12
+            }
+        ]
     },
     {
         "name": "VPlant",
