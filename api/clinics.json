@@ -885,6 +885,54 @@
         ]
     },
     {
+        "name": "Cochin Hair Transplant",
+        "id": "cht",
+        "places": ["Kochi", "Perinthalmanna", "Kozhikode"],
+        "logo": "cht.png",
+        "banner": "cht-banner.png",
+        "info": 
+        [
+            [
+                {
+                    "icon": "fa-map-marker",
+                    "label": "2nd Floor, Rubicon Building, Opp. HP Petrol Bunk, Valanjambalam, Pallimukku, Cochin",
+                    "link": false
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 94970 22939",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 70347 777118",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "91 80079 11118",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-envelope-open",
+                    "label": "cochinhairtransplant@gmail.com",
+                    "link": "mailto"
+                },
+                {
+                    "icon": "fa-globe",
+                    "label": "http://cochinhairtransplant.in",
+                    "link": true
+                },
+                {
+                    "icon": "fa-youtube",
+                    "label": "https://www.youtube.com/channel/UCmxMjDx8RihMiX7N-N568tQ",
+                    "link": true
+                }
+            ]
+        ],
+        "doctors": []
+    },
+    {
         "name": "HPC Hair Transplant",
         "id": "hpc",
         "places": ["Kochi"],
