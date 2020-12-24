@@ -728,47 +728,197 @@
     },
     {
         "name": "CI Cosmetic Clinic",
-        "id": 93,
+        "id": "ci",
+        "places": ["Kochi", "Kozhikode", "Thiruvananthapuram", "Kottakkal"],
         "logo": "ci.png",
-        "website": "https://www.cutisinternational.com/",
-        "address": [
-            {
-                "place": "Cochin, Trivandrum, Thrissur, Kottakkal, Kozhikode"
-            }
+        "banner": "ci-banner.png",
+        "info": [
+            [
+                {
+                    "icon": "fa-whatsapp",
+                    "label": "+91 94463 56615",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-envelope-open",
+                    "label": "info@cutisinternational.com",
+                    "link": "mailto"
+                },
+                {
+                    "icon": "fa-globe",
+                    "label": "https://www.cutisinternational.com",
+                    "link": true
+                },
+                {
+                    "icon": "fa-facebook",
+                    "label": "https://www.facebook.com/cutisinternational",
+                    "link": true
+                },
+                {
+                    "icon": "fa-instagram",
+                    "label": "https://www.instagram.com/cutisinternational/",
+                    "link": true
+                },
+                {
+                    "icon": "fa-twitter",
+                    "label": "https://twitter.com/cutisin",
+                    "link": true
+                },
+                {
+                    "icon": "fa-youtube",
+                    "label": "https://www.youtube.com/channel/UCRBXUKceieua6cvXG6Kt0-A",
+                    "link": true
+                }
+            ],
+            [
+                {
+                    "label" : "Kochi",
+                    "highlight": true
+                },
+                {
+                    "icon": "fa-map-marker",
+                    "label": "10/64J, First Floor, Image Arcade Seaport - Airport Rd, Kakkanad, Kochi",
+                    "link": false
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 4844046615",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 9446356615",
+                    "link": "tel"
+                }
+            ],
+            [
+                {
+                    "label" : "Kozhikode",
+                    "highlight": true
+                },
+                {
+                    "icon": "fa-map-marker",
+                    "label": "1, 2nd Floor Sreedhars Diacare, 1136, BG Rd, Chakkorathukulam, Kozhikode, 673011",
+                    "link": false
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 7994233344",
+                    "link": "tel"
+                }
+            ],
+            [
+                {
+                    "label" : "Thiruvananthapuram",
+                    "highlight": true
+                },
+                {
+                    "icon": "fa-map-marker",
+                    "label": "Convent Rd, Vanchiyoor, Thiruvananthapuram 695035",
+                    "link": false
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 9048243344",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 9745433344",
+                    "link": "tel"
+                }
+            ],
+            [
+                {
+                    "label" : "Kottakkal",
+                    "highlight": true
+                },
+                {
+                    "icon": "fa-map-marker",
+                    "label": "Edarikkodu junction, near Ilaj dental clinic, Kottakkal 676501.",
+                    "link": false
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 9656933344",
+                    "link": "tel"
+                }
+            ]
         ],
-        "doctors": [{
-            "id": 1,
-            "type": "Visiting"
-        }]
+        "doctors": [
+            {
+                "id": 13
+            },
+            {
+                "id": 14
+            },
+            {
+                "id": 15
+            },
+            {
+                "id": 16
+            },
+            {
+                "id": 17
+            },
+            {
+                "id": 18
+            },
+            {
+                "id": 19
+            },
+            {
+                "id": 20
+            },
+            {
+                "id": 21
+            },
+            {
+                "id": 22
+            },
+            {
+                "id": 23
+            },
+            {
+                "id": 24
+            }
+        ]
     },
     {
-        "name": "Madari",
-        "id": 7,
-        "logo": "madari.png",
-        "website": "https://madari-dental-clinic-hair-transplant.business.site/",
-        "address": [
-            {
-                "place": "Nilambur"
-            }
-        ],
-        "doctors": [{
-            "id": 1,
-            "type": "Visiting"
-        }]
-    },
-    {
-        "name": "HPC Hair Transplant Centre",
-        "id": 8,
+        "name": "HPC Hair Transplant",
+        "id": "hpc",
+        "places": ["Kochi"],
         "logo": "hpc.png",
-        "website": "https://www.hpchairtransplant.com/",
-        "address": [
-            {
-                "place": "Cochin"
-            }
+        "banner": "hpc-banner.png",
+        "info": [
+            [
+                {
+                    "icon": "fa-map-marker",
+                    "label": "HPC Medical Center, Opp: CESZ Kakkanad, Kochi 682030",
+                    "link": false
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 484 2421256",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 999 505 7957",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-envelope-open",
+                    "label": "info@hpchairtransplant.com",
+                    "link": "mailto"
+                },
+                {
+                    "icon": "fa-globe",
+                    "label": "https://www.hpchairtransplant.com",
+                    "link": true
+                }
+            ]
         ],
-        "doctors": [{
-            "id": 1,
-            "type": "Visiting"
-        }]
+        "doctors": []
     }
 ]

@@ -60,5 +60,68 @@
         "label": "Dr. Thajnees K S",
         "more": "MBBS, FAM (fellowship in aesthetic medicine)",
         "link": "http://www.medlounges.com/thajness.html"
+    },
+    {
+        "id" : 13,
+        "label": "Dr. Joseph Chalissery",
+        "more": "MBBS, DDVL. Consultant Dermatologist",
+        "link": "https://www.practo.com/ernakulam/doctor/joseph-challishery-dermatologist-general-physician"
+    },
+    {
+        "id" : 14,
+        "label": "Dr. Shiana",
+        "more": "Unit In Charge"
+    },
+    {
+        "id" : 15,
+        "label": "Dr. Arthi Priya",
+        "more": "Dermatologist & Cosmetologist"
+    },
+    {
+        "id" : 16,
+        "label": "Dr. Indu Balan",
+        "more": "MBBS, MD. Consultant Dermatologist",
+        "link": "https://www.practo.com/ernakulam/doctor/dr-indu-balan-dermatologist-cosmetologist"
+    },
+    {
+        "id" : 17,
+        "label": "Dr. Soumya Mary Koshy",
+        "more": "Consultant Dermatologist"
+    },
+    {
+        "id" : 18,
+        "label": "Dr. Ashwini Babu",
+        "more": "Consultant Dermatologist"
+    },
+    {
+        "id" : 19,
+        "label": "Dr. Vimi Ponnamparambath",
+        "more": "Dermatologist & Cosmetologist"
+    },
+    {
+        "id" : 20,
+        "label": "Dr. Nikhila P K",
+        "more": "Consultant Dermatologist"
+    },
+    {
+        "id" : 21,
+        "label": "Dr Saranya Vijay",
+        "more": "Consultant Dermatologist"
+    },
+    {
+        "id" : 22,
+        "label": "Dr Taniya Liz Mathew",
+        "more": "Senior Dermatologist"
+    },
+    {
+        "id" : 23,
+        "label": "Dr Noel",
+        "more": "Consultant Dermatologist"
+    },
+    {
+        "id" : 24,
+        "label": "Dr. Nafina Jasmine",
+        "more": "Consultant Dermatologist"
     }
+
 ]
