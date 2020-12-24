@@ -72,6 +72,10 @@
     margin-top: 10px;
 }
 
+.clinic-content-row a {
+    word-break: break-all;
+}
+
 .group-info {
     font-size: 14px;
 }
