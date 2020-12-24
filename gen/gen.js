@@ -54,5 +54,6 @@ function generateFaqFiles() {
 
 checkDuplicate(clinics, 'Clinics');
 checkDuplicate(faqData, 'Faq');
+checkDuplicate(docData, 'Doctors')
 generateFaqFiles();
 generateClinicFiles();

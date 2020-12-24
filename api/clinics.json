@@ -6,6 +6,7 @@
         "places": ["Kochi"],
         "logo": "ladensitae.png",
         "banner": "ladensitae-banner.png",
+        "doctorsLink": "https://ladensitae.com/team-member",
         "info": [
             [
                 {
@@ -22,6 +23,11 @@
                     "icon": "fa-envelope-open",
                     "label": "ladensitae.kl@gmail.com",
                     "link": "mailto"
+                },
+                {
+                    "icon": "fa-globe",
+                    "label": "https://ladensitae.com",
+                    "link": true
                 }
             ]
         ],
@@ -37,35 +43,159 @@
         ]
     },
     {
-        "name": "Hair Tree",
-        "id": 2,
-        "logo": "hairtree.png",
-        "address": [
+        "name": "Turkey Cosmetic and Hair Transplant Center",
+        "id": "turkey_kerala",
+        "status": "twoTick",
+        "places": ["Kochi"],
+        "logo": "turkey.png",
+        "banner": "turkey-banner.png",
+        "doctorsLink": "http://www.turkeyhairtransplantcentre.com/doctors-surgeons-dermetologist.html",
+        "info": [
+            [
+                {
+                    "icon": "fa-map-marker",
+                    "label": "Magnetic House, Nedumbassery, Kochi, Kerala. 683585.",
+                    "link": false
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 9744200100",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-envelope-open",
+                    "label": "info@turkeyhairtransplantcentre.com",
+                    "link": "mailto"
+                },
+                {
+                    "icon": "fa-globe",
+                    "label": "http://www.turkeyhairtransplantcentre.com",
+                    "link": true
+                }
+            ]
+        ],
+        "doctors": [
             {
-                "place": "Thrissur"
+                "id": 3
             },
             {
-                "place": "Kozhikode"
+                "id": 4,
+                "isHead": true
+            },
+            {
+                "id": 5
+            },
+            {
+                "id": 6
+            },
+            {
+                "id": 7
             }
-        ],
-        "doctors": [{
-            "id": 1,
-            "type": "Visiting"
-        }]
+        ]
     },
     {
-        "name": "Turkey Cosmetic and Hair Transplant Center",
-        "id": 3,
-        "logo": "turkey.png",
-        "address": [
-            {
-                "place": "Cochin"
-            }
+        "name": "Hair Tree",
+        "id": "hairtree",
+        "status": "greenTick",
+        "places": ["Kochi", "Thrissur", "Malappuram", "Kozhikode", "Kannur"],
+        "logo": "hairtree.png",
+        "banner": "hairtree-banner.jpg",
+        "info": 
+        [
+            [
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 9037024425",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-envelope-open",
+                    "label": "hairtreeclinic@gmail.com",
+                    "link": "mailto"
+                },
+                {
+                    "icon": "fa-globe",
+                    "label": "https://hairtreeclinic.com",
+                    "link": true
+                }
+            ],
+            [
+                {
+                    "icon": "fa-map-marker",
+                    "label": "Palakat’s Building, Near Thykoodan Bridge, NH – 47, Vytilla, Ernakulam- 682019.",
+                    "link": false
+                }
+            ],
+            [
+                {
+                    "icon": "fa-map-marker",
+                    "label": "3rd floor, EM Space, Trichur-Kuttipuram Road, Puzhakkal, Poonkunnam. Trichur.",
+                    "link": false
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "0487 238 7425",
+                    "link": "tel"
+                }
+            ],
+            [
+                {
+                    "icon": "fa-map-marker",
+                    "label": "3rd Floor, TV Complex, Next to Peekay Auditorium, Changuvetty, Kottakkal(P.O), Malappuram.",
+                    "link": false
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 9037024425",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "04832778409",
+                    "link": "tel"
+                }
+            ],
+            [
+                {
+                    "icon": "fa-map-marker",
+                    "label": "1st floor, Charisma Building, YMCA Jn, Kannur Road, Kozhikode.",
+                    "link": false
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "0495 2761188",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "0495 4050208",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 9037024425",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 8281079222",
+                    "link": "tel"
+                }
+            ],
+            [
+                {
+                    "icon": "fa-map-marker",
+                    "label": "2nd Floor, Uthamam Building, Near Makkani, South Bazar, NH 66 Cut Road- Anakkulam Road, Kannur",
+                    "link": false
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 9037024425",
+                    "link": "tel"
+                }
+            ]
         ],
-        "doctors": [{
-            "id": 1,
-            "type": "Visiting"
-        }]
+        "doctors": []
     },
     {
         "name": "DHI",

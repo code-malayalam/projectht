@@ -80,6 +80,7 @@ function template1(clinic, docData = []) {
         info = [],
         banner,
         doctors = [],
+        doctorsLink
     } = clinic;
 
 
@@ -188,13 +189,18 @@ function template1(clinic, docData = []) {
 
                         ${doctors.length === 0 ? `
                             <div class="clinic-no-doctors border-label">
-                                ക്ലിനിക് വെബ്‌സൈറ്റിൽ നിന്നും ഡോക്ടമാരെ കുറിച്ചുള്ള വിവരം ലഭ്യമല്ല.
+                                ഓരോ ക്ലിനിക്കിലെയും ഡോക്ടർമാരുടെ വിവരങ്ങൾ വെബ്സൈറ്റിലെ ലഭ്യമല്ല.
                             </div>
                         ` : ''}
     
-                        <div class="clinic-doctors-more">
-                            ഡോക്ടമാരെ കുറിച്ച് കൂടുതൽ വിവരങ്ങൾക്ക് അവരുടെ വെബ്സൈറ്റ് </a> സന്ദർശിക്കുക.
-                        </div>
+                        ${
+                            doctorsLink ? `
+                            <div class="clinic-doctors-more">
+                                ഡോക്ടമാരെ കുറിച്ച് കൂടുതൽ വിവരങ്ങൾക്ക് അവരുടെ <a target="_blank" href="${doctorsLink}"> വെബ്സൈറ്റ് </a> സന്ദർശിക്കുക.
+                            </div>    
+                            ` : ''
+                        }
+                        
                     </div>
                 </div>
                 <div class="group-info">

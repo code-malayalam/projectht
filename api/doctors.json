@@ -7,6 +7,32 @@
     },
     {
         "id": 2,
-        "label": "Dr. Shashi Chauhan"
+        "label": "Dr. Shashi Chauhan",
+        "more": "FMC (Fellowship In Medical Cosmetogy)"
+    },
+    {
+        "id" : 3,
+        "label": "Dr. Sonia Raghukumar",
+        "more" : "MBBS, MD, FMC, FAAD Dermatologist",
+        "link": "https://www.qkdoc.com/doctor-detail/XOFFBN"
+    },
+    {
+        "id" : 4,
+        "label": "Dr Aishwarya V"
+    },
+    {
+        "id" : 5,
+        "label": "Dr Mary Antony",
+        "more": "Dermatologist ,MBBS, MD"
+    },
+    {
+        "id" : 6,
+        "label": "Dr Ashley John",
+        "more": "BDS - Cosmetology & Trichology"
+    },
+    {
+        "id" : 7,
+        "label": "Dr Vishnunath K.R",
+        "more": "MBBS , Cosmetology & Trichology"
     }
 ]
