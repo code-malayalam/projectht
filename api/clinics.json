@@ -121,12 +121,20 @@
             ],
             [
                 {
+                    "label": "Kochi",
+                    "highlight": true
+                },
+                {
                     "icon": "fa-map-marker",
                     "label": "Palakat’s Building, Near Thykoodan Bridge, NH – 47, Vytilla, Ernakulam- 682019.",
                     "link": false
                 }
             ],
             [
+                {
+                    "label": "Trichur",
+                    "highlight": true
+                },
                 {
                     "icon": "fa-map-marker",
                     "label": "3rd floor, EM Space, Trichur-Kuttipuram Road, Puzhakkal, Poonkunnam. Trichur.",
@@ -139,6 +147,10 @@
                 }
             ],
             [
+                {
+                    "label": "Malappuram",
+                    "highlight": true
+                },
                 {
                     "icon": "fa-map-marker",
                     "label": "3rd Floor, TV Complex, Next to Peekay Auditorium, Changuvetty, Kottakkal(P.O), Malappuram.",
@@ -156,6 +168,10 @@
                 }
             ],
             [
+                {
+                    "label": "Kozhikode",
+                    "highlight": true
+                },
                 {
                     "icon": "fa-map-marker",
                     "label": "1st floor, Charisma Building, YMCA Jn, Kannur Road, Kozhikode.",
@@ -183,6 +199,10 @@
                 }
             ],
             [
+                {
+                    "label": "Kannur",
+                    "highlight": true
+                },
                 {
                     "icon": "fa-map-marker",
                     "label": "2nd Floor, Uthamam Building, Near Makkani, South Bazar, NH 66 Cut Road- Anakkulam Road, Kannur",

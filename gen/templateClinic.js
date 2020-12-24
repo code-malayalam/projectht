@@ -152,10 +152,15 @@ function template1(clinic, docData = []) {
                                     ${
                                         item.map((info) => {
                                             return `
-                                                <div>
-                                                    <span>
-                                                        <i class="fa ${info.icon} fa-lg" aria-hidden="true"></i>
-                                                    </span>
+                                                <div class="${info.highlight ? 'highlight' : ''}">
+                                                    ${
+                                                        info.icon ? `
+                                                        <span>
+                                                            <i class="fa ${info.icon} fa-lg" aria-hidden="true"></i>
+                                                        </span>
+                                                        ` : ''
+                                                    }
+                                                    
                                                     <span> ${getInfoText(info)} </span>
                                                 </div>
                                             `;
