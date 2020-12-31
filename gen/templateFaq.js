@@ -5,6 +5,10 @@ const {
 } = require('./constants');
 
 function getQuesSection(q = '', a = '', img) {
+
+    const ques = q.replace('\n', '<br>');
+    const ans = a.replace('\n', '<br>');
+
     return `
         ${
             img ? `
@@ -15,10 +19,10 @@ function getQuesSection(q = '', a = '', img) {
         }
         <div>
             <div class="faq-item-header">
-                ${q}
+                ${ques}
             </div>
             <div class="faq-item-body">
-                ${a}
+                ${ans}
             </div>
         </div>
     `;

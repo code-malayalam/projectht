@@ -81,9 +81,13 @@ function createFaqItem(item) {
     }  = item;
 
     const {
-        q,
-        a
+        q = '',
+        a = ''
     } = mal;
+
+
+    const ques = q.replace('\n', '<br>');
+    const ans = a.replace('\n', '<br>');
 
     return `
         <div class="faq-item section-item" onclick="gotoFaq('${id}')">
@@ -94,10 +98,10 @@ function createFaqItem(item) {
             ` : ''}
             <div>
                 <div class="faq-item-header">
-                    ${q}
+                    ${ques}
                 </div>
                 <div class="faq-item-body">
-                    ${a}
+                    ${ans}
                 </div>
             </div>
         </div>
