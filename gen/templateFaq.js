@@ -6,8 +6,8 @@ const {
 
 function getQuesSection(q = '', a = '', img) {
 
-    const ques = q.replace('\n', '<br>');
-    const ans = a.replace('\n', '<br>');
+    const ques = q.replace(/\n/g, '<br>');
+    const ans = a.replace(/\n/g, '<br>');
 
     return `
         ${
@@ -43,6 +43,8 @@ function template1(faq, relatedFaqs = []) {
 
     const contentUrl = `${FAQ_BASE_URL}/faq${id}.html`;
     const encodedUrl = encodeURIComponent(contentUrl);
+    const ques = q.replace(/\n/g, ' ');
+    const ans = a.replace(/\n/g, ' s');
 
     return `
         <!DOCTYPE html>
@@ -57,8 +59,8 @@ function template1(faq, relatedFaqs = []) {
                 <title>HT MALAYALAM</title>
                 <script async src="https://www.googletagmanager.com/gtag/js?id=G-826R4FRRS7"></script>
 
-                <meta property="og:title" content="${q}"/>
-                <meta property="og:description" content="${a}">
+                <meta property="og:title" content="${ques}"/>
+                <meta property="og:description" content="${ans}">
                 <meta property="og:type" content="article"/>
                 <meta property="og:site_name" content="HT Malayalam"/>
                 <meta property="og:url" content="${contentUrl}"/>

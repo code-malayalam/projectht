@@ -86,8 +86,8 @@ function createFaqItem(item) {
     } = mal;
 
 
-    const ques = q.replace('\n', '<br>');
-    const ans = a.replace('\n', '<br>');
+    const ques = q.replace(/\n/g, '<br>');
+    const ans = a.replace(/\n/g, '<br>');
 
     return `
         <div class="faq-item section-item" onclick="gotoFaq('${id}')">
