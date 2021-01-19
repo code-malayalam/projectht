@@ -200,6 +200,10 @@ body {
     border-radius: 5px;
 }
 
+.ref-section, .audio-section {
+    margin-top: 20px;
+}
+
 
 @media (max-width: 900px) {
     .caption {

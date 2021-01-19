@@ -1,10 +1,11 @@
 
 const {
     FAQ_BASE_URL,
-    IMAGE_BASE_URL
+    IMAGE_BASE_URL,
+    AUDIO_BASE_URL
 } = require('./constants');
 
-function getQuesSection(q = '', a = '', img) {
+function getQuesSection(q = '', a = '', img, audio = [], ref = []) {
 
     const ques = q.replace(/\n/g, '<br>');
     const ans = a.replace(/\n/g, '<br>');
@@ -24,6 +25,30 @@ function getQuesSection(q = '', a = '', img) {
             <div class="faq-item-body">
                 ${ans}
             </div>
+            <div class="audio-section">
+                ${
+                    audio.map((item) => {
+                        return `
+                        <audio controls>
+                            <source src="/audio/${item}" type="audio/ogg; codecs=opus"/>
+                            Your browser does not support the audio element.
+                        </audio>
+                        `;
+                    }).join('<br>')
+                }
+            </div>
+            <div class="ref-section">
+                ${
+                    ref.map((item, index) => {
+                        return `
+                        <div>
+                            [${index + 1}] <a target="_blank"    href="${item}">${item}</a>
+
+                        </div>
+                        `;
+                    }).join('<br>')
+                }
+            </div>
         </div>
     `;
 }
@@ -33,7 +58,9 @@ function template1(faq, relatedFaqs = []) {
     const {
         id, 
         mal = {},
-        img
+        img,
+        audio = [],
+        ref
     } = faq;
 
     const {
@@ -65,6 +92,7 @@ function template1(faq, relatedFaqs = []) {
                 <meta property="og:site_name" content="HT Malayalam"/>
                 <meta property="og:url" content="${contentUrl}"/>
                 ${img ? `<meta property="og:image" content="${IMAGE_BASE_URL}/${img}"/>` : ''}
+                ${audio && audio.length ? `<meta property="og:audio" content="${AUDIO_BASE_URL}/${audio[0]}"/>` : ''}
                 
 
                 <script src="/gtag.js"></script>
@@ -104,7 +132,7 @@ function template1(faq, relatedFaqs = []) {
 
                 <div class="content">
                     <div class="faq-item section-item first-item">
-                        ${getQuesSection(q, a, img)}
+                        ${getQuesSection(q, a, img, audio, ref)}
                     </div>
                     <div class="faq-sub">
                         ${relatedFaqs.map((item) => {
