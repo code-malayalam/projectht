@@ -68,6 +68,14 @@
         "audio": ["1.opus"]
     },
     {
+        "id": 12,
+        "mal": {
+            "q": "Hair Transplantന് insurance ലഭിക്കുമോ ?",
+            "a": "Hair Transplant ഒരു സൗന്ദര്യവര്‍ദ്ധക ശസ്ത്രക്രിയയാണ്. അതുകൊണ്ട് ഇൻഷുറൻസ് ലഭിക്കുകയില്ല. എന്നാൽ HDFC Bajaj Finserve തുടങ്ങിയ സ്ഥാപനങ്ങൾ EMI സൗകര്യം നൽകുന്നുണ്ട്."
+        },
+        "ref": ["https://www.policyx.com/health-insurance/articles/hair-loss-treatment-cover-in-health-insurance"]
+    },
+    {
         "id": 1,
         "img": "1.jpg",
         "mal": {

@@ -1,79 +1,4 @@
 
-const {
-    FAQ_BASE_URL,
-    IMAGE_BASE_URL,
-    AUDIO_BASE_URL
-} = require('./constants');
-
-function getQuesSection(q = '', a = '', img, audio = [], ref = []) {
-
-    const ques = q.replace(/\n/g, '<br>');
-    const ans = a.replace(/\n/g, '<br>');
-
-    return `
-        ${
-            img ? `
-                <div class="faq-img">
-                    <img src="/images/${img}" alt="logo">
-                </div>
-            ` : ''
-        }
-        <div>
-            <div class="faq-item-header">
-                ${ques}
-            </div>
-            <div class="faq-item-body">
-                ${ans}
-            </div>
-            <div class="audio-section">
-                ${
-                    audio.map((item) => {
-                        return `
-                        <audio controls>
-                            <source src="/audio/${item}" type="audio/ogg; codecs=opus"/>
-                            Your browser does not support the audio element.
-                        </audio>
-                        `;
-                    }).join('<br>')
-                }
-            </div>
-            <div class="ref-section">
-                ${
-                    ref.map((item, index) => {
-                        return `
-                        <div>
-                            [${index + 1}] <a target="_blank" href="${item}">${item}</a>
-
-                        </div>
-                        `;
-                    }).join('<br>')
-                }
-            </div>
-        </div>
-    `;
-}
-
-function template1(faq, relatedFaqs = []) {
-
-    const {
-        id, 
-        mal = {},
-        img,
-        audio = [],
-        ref
-    } = faq;
-
-    const {
-        q,
-        a
-    } = mal;
-
-    const contentUrl = `${FAQ_BASE_URL}/faq${id}.html`;
-    const encodedUrl = encodeURIComponent(contentUrl);
-    const ques = q.replace(/\n/g, ' ');
-    const ans = a.replace(/\n/g, ' s');
-
-    return `
         <!DOCTYPE html>
         <html lang="en">
             <head>
@@ -86,13 +11,13 @@ function template1(faq, relatedFaqs = []) {
                 <title>HT MALAYALAM</title>
                 <script async src="https://www.googletagmanager.com/gtag/js?id=G-826R4FRRS7"></script>
 
-                <meta property="og:title" content="${ques}"/>
-                <meta property="og:description" content="${ans}">
+                <meta property="og:title" content="Hair Transplantന് insurance ലഭിക്കുമോ ?"/>
+                <meta property="og:description" content="Hair Transplant ഒരു സൗന്ദര്യവര്‍ദ്ധക ശസ്ത്രക്രിയയാണ്. അതുകൊണ്ട് ഇൻഷുറൻസ് ലഭിക്കുകയില്ല. എന്നാൽ HDFC Bajaj Finserve തുടങ്ങിയ സ്ഥാപനങ്ങൾ EMI സൗകര്യം നൽകുന്നുണ്ട്.">
                 <meta property="og:type" content="article"/>
                 <meta property="og:site_name" content="HT Malayalam"/>
-                <meta property="og:url" content="${contentUrl}"/>
-                ${img ? `<meta property="og:image" content="${IMAGE_BASE_URL}/${img}"/>` : ''}
-                ${audio && audio.length ? `<meta property="og:audio" content="${AUDIO_BASE_URL}/${audio[0]}"/>` : ''}
+                <meta property="og:url" content="https://htmalayalam.in/faq/faq12.html"/>
+                
+                
                 
 
                 <script src="/gtag.js"></script>
@@ -102,7 +27,7 @@ function template1(faq, relatedFaqs = []) {
                 <script src="/script.js?v=2"></script>
                 <script src="/scriptFaqs.js?v=2"></script>
             </head>
-            <body class="page-faq" id="page-faq-${id}">
+            <body class="page-faq" id="page-faq-12">
                 <div class="top">
                     <div class="header">
                         <div class="title"> 
@@ -132,33 +57,37 @@ function template1(faq, relatedFaqs = []) {
 
                 <div class="content">
                     <div class="faq-item section-item first-item">
-                        ${getQuesSection(q, a, img, audio, ref)}
+                        
+        
+        <div>
+            <div class="faq-item-header">
+                Hair Transplantന് insurance ലഭിക്കുമോ ?
+            </div>
+            <div class="faq-item-body">
+                Hair Transplant ഒരു സൗന്ദര്യവര്‍ദ്ധക ശസ്ത്രക്രിയയാണ്. അതുകൊണ്ട് ഇൻഷുറൻസ് ലഭിക്കുകയില്ല. എന്നാൽ HDFC Bajaj Finserve തുടങ്ങിയ സ്ഥാപനങ്ങൾ EMI സൗകര്യം നൽകുന്നുണ്ട്.
+            </div>
+            <div class="audio-section">
+                
+            </div>
+            <div class="ref-section">
+                
+                        <div>
+                            [1] <a target="_blank" href="https://www.policyx.com/health-insurance/articles/hair-loss-treatment-cover-in-health-insurance">https://www.policyx.com/health-insurance/articles/hair-loss-treatment-cover-in-health-insurance</a>
+
+                        </div>
+                        
+            </div>
+        </div>
+    
                     </div>
                     <div class="faq-sub">
-                        ${relatedFaqs.map((item) => {
-                            const {
-                                id, 
-                                mal = {},
-                                img
-                            } = item;
                         
-                            const {
-                                q,
-                                a
-                            } = mal;
-
-                            return `
-                                <div class="faq-item" onclick="gotoFaq('${id}')">
-                                    ${getQuesSection(q, a, img)}
-                                </div>
-                            `;
-                        }).join('\n')}
                     </div>
                     
                 </div>
 
                 <div class="buttons share">
-                    <a href="${encodedUrl}">
+                    <a href="https%3A%2F%2Fhtmalayalam.in%2Ffaq%2Ffaq12.html">
                         <i class="fa fa-telegram fa-lg" aria-hidden="true"></i>
                         Share to Telegram
                     </a>
@@ -181,7 +110,4 @@ function template1(faq, relatedFaqs = []) {
             </body>
         </html>
 
-    `;
-}
-
-module.exports = template1;
+    

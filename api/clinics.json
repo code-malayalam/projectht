@@ -968,5 +968,27 @@
             ]
         ],
         "doctors": []
+    },
+    {
+        "name": "Madari Dental Clinic and Hair Transplant Center",
+        "id": "madari",
+        "places": ["Nilambur"],
+        "logo": "madari.png",
+        "banner": "madari-banner.png",
+        "info": [
+            [
+                {
+                    "icon": "fa-map-marker",
+                    "label": "Near Head Post Office Nilambur. Kerala 679329",
+                    "link": false
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 95673 07920",
+                    "link": "tel"
+                }
+            ]
+        ],
+        "doctors": []
     }
 ]
