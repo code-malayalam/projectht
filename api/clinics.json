@@ -50,6 +50,16 @@
         "logo": "turkey.png",
         "banner": "turkey-banner.png",
         "doctorsLink": "http://www.turkeyhairtransplantcentre.com/doctors-surgeons-dermetologist.html",
+        "social" : [
+            {
+                "icon": "fa-facebook",
+                "link": "https://www.facebook.com/turkeyhairtransplantofficial"
+            },
+            {
+                "icon": "fa-instagram",
+                "link": "https://www.instagram.com/turkeyhairtransplantofficial"
+            }
+        ],
         "info": [
             [
                 {
@@ -71,18 +81,7 @@
                     "icon": "fa-globe",
                     "label": "http://www.turkeyhairtransplantcentre.com",
                     "link": true
-                },
-                {
-                    "icon": "fa-facebook",
-                    "label": "https://www.facebook.com/turkeyhairtransplantofficial",
-                    "link": true
-                },
-                {
-                    "icon": "fa-instagram",
-                    "label": "https://www.instagram.com/turkeyhairtransplantofficial",
-                    "link": true
                 }
-
             ]
         ],
         "doctors": [
@@ -307,6 +306,16 @@
         "places": ["Kochi", "Kozhikode", "Thrissur", "Kottayam", "Manjeri", "Thiruvananthapuram"],
         "logo": "hairocraft.png",
         "banner": "hairocraft-banner.png",
+        "social" : [
+            {
+                "icon": "fa-facebook",
+                "link": "https://www.facebook.com/hairocraft"
+            },
+            {
+                "icon": "fa-youtube",
+                "link": "https://www.youtube.com/channel/UCG23Mo2KUVb_GwPpQuaVFOA"
+            }
+        ],
         "info": [
             [
                 {
@@ -322,16 +331,6 @@
                 {
                     "icon": "fa-globe",
                     "label": "https://www.hairocraft.com",
-                    "link": true
-                },
-                {
-                    "icon": "fa-facebook",
-                    "label": "https://www.facebook.com/hairocraft",
-                    "link": true
-                },
-                {
-                    "icon": "fa-youtube",
-                    "label": "https://www.youtube.com/channel/UCG23Mo2KUVb_GwPpQuaVFOA",
                     "link": true
                 }
             ],
@@ -463,6 +462,16 @@
         "places": ["Changanacherry"],
         "logo": "hairgraaft.png",
         "banner": "hairgraaft-banner.png",
+        "social" : [
+            {
+                "icon": "fa-facebook",
+                "link": "https://www.facebook.com/hairgraaft.Kerala"
+            },
+            {
+                "icon": "fa-instagram",
+                "link": "https://www.instagram.com/hairgraaft"
+            }
+        ],
         "info": [
             [
                 {
@@ -489,16 +498,6 @@
                     "icon": "fa-globe",
                     "label": "https://hairgraaft.com",
                     "link": true
-                },
-                {
-                    "icon": "fa-facebook",
-                    "label": "https://www.facebook.com/hairgraaft.Kerala",
-                    "link": true
-                },
-                {
-                    "icon": "fa-instagram",
-                    "label": "https://www.instagram.com/hairgraaft",
-                    "link": true
                 }
             ]
         ],
@@ -511,6 +510,16 @@
         "logo": "hairodent.png",
         "banner": "hairodent-banner.png",
         "doctorsLink": "https://www.hairodent.com/doctors",
+        "social" : [
+            {
+                "icon": "fa-facebook",
+                "link": "https://www.facebook.com/HairODent"
+            },
+            {
+                "icon": "fa-youtube",
+                "link": "https://www.youtube.com/channel/UCMZwlV1atody8kVL0w2zOLA"
+            }
+        ],
         "info": [
             [
                 {
@@ -532,16 +541,6 @@
                     "icon": "fa-globe",
                     "label": "https://www.hairodent.com",
                     "link": true
-                },
-                {
-                    "icon": "fa-facebook",
-                    "label": "https://www.facebook.com/HairODent",
-                    "link": true
-                },
-                {
-                    "icon": "fa-youtube",
-                    "label": "https://www.youtube.com/channel/UCMZwlV1atody8kVL0w2zOLA",
-                    "link": true
                 }
             ]
         ],
@@ -562,6 +561,16 @@
         "banner": "medlounges-banner.png",
         "bannerColor": "#743252",
         "doctorsLink": "http://www.medlounges.com/team.html",
+        "social": [
+            {
+                "icon": "fa-instagram",
+                "link": "https://www.instagram.com/medlounges"
+            },
+            {
+                "icon": "fa-linkedin",
+                "link": "https://www.linkedin.com/company/medlounges-wellness"
+            }
+        ],
         "info": [
             [
                 {
@@ -573,18 +582,7 @@
                     "icon": "fa-globe",
                     "label": "http://www.medlounges.com",
                     "link": true
-                },
-                {
-                    "icon": "fa-instagram",
-                    "label": "https://www.instagram.com/medlounges",
-                    "link": true
-                },
-                {
-                    "icon": "fa-linkedin",
-                    "label": "https://www.linkedin.com/company/medlounges-wellness",
-                    "link": true
                 }
-
             ],
             [
                 {
@@ -648,6 +646,28 @@
         "places": ["Kochi", "Kozhikode"],
         "logo": "vplant.png",
         "banner": "vplant-banner.png",
+        "social": [
+            {
+                "icon": "fa-facebook",
+                "link": "https://www.facebook.com/Vplant.HairClinic"
+            },
+            {
+                "icon": "fa-instagram",
+                "link": "https://www.instagram.com/vplanthairclinics"
+            },
+            {
+                "icon": "fa-twitter",
+                "link": "https://twitter.com/VplantClinics"
+            },
+            {
+                "icon": "fa-linkedin",
+                "link": "https://www.linkedin.com/company/vplanthairclinics"
+            },
+            {
+                "icon": "fa-youtube",
+                "link": "https://www.youtube.com/channel/UCNs_JeHXSoZYsvaBydnpmKQ"
+            }
+        ],
         "info": [
             [
                 {
@@ -663,31 +683,6 @@
                 {
                     "icon": "fa-globe",
                     "label": "https://vplanthairclinics.com",
-                    "link": true
-                },
-                {
-                    "icon": "fa-facebook",
-                    "label": "https://www.facebook.com/Vplant.HairClinic",
-                    "link": true
-                },
-                {
-                    "icon": "fa-instagram",
-                    "label": "https://www.instagram.com/vplanthairclinics",
-                    "link": true
-                },
-                {
-                    "icon": "fa-twitter",
-                    "label": "https://twitter.com/VplantClinics",
-                    "link": true
-                },
-                {
-                    "icon": "fa-linkedin",
-                    "label": "https://www.linkedin.com/company/vplanthairclinics",
-                    "link": true
-                },
-                {
-                    "icon": "fa-youtube",
-                    "label": "https://www.youtube.com/channel/UCNs_JeHXSoZYsvaBydnpmKQ",
                     "link": true
                 }
             ],
@@ -732,6 +727,24 @@
         "places": ["Kochi", "Kozhikode", "Thiruvananthapuram", "Kottakkal"],
         "logo": "ci.png",
         "banner": "ci-banner.png",
+        "social": [
+            {
+                "icon": "fa-facebook",
+                "link": "https://www.facebook.com/cutisinternational"
+            },
+            {
+                "icon": "fa-instagram",
+                "link": "https://www.instagram.com/cutisinternational"
+            },
+            {
+                "icon": "fa-twitter",
+                "link": "https://twitter.com/cutisin"
+            },
+            {
+                "icon": "fa-youtube",
+                "link": "https://www.youtube.com/channel/UCRBXUKceieua6cvXG6Kt0-A"
+            }
+        ],
         "info": [
             [
                 {
@@ -747,26 +760,6 @@
                 {
                     "icon": "fa-globe",
                     "label": "https://www.cutisinternational.com",
-                    "link": true
-                },
-                {
-                    "icon": "fa-facebook",
-                    "label": "https://www.facebook.com/cutisinternational",
-                    "link": true
-                },
-                {
-                    "icon": "fa-instagram",
-                    "label": "https://www.instagram.com/cutisinternational/",
-                    "link": true
-                },
-                {
-                    "icon": "fa-twitter",
-                    "label": "https://twitter.com/cutisin",
-                    "link": true
-                },
-                {
-                    "icon": "fa-youtube",
-                    "label": "https://www.youtube.com/channel/UCRBXUKceieua6cvXG6Kt0-A",
                     "link": true
                 }
             ],
@@ -890,6 +883,12 @@
         "places": ["Kochi", "Perinthalmanna", "Kozhikode"],
         "logo": "cht.png",
         "banner": "cht-banner.png",
+        "social":[
+            {
+                "icon": "fa-youtube",
+                "link": "https://www.youtube.com/channel/UCmxMjDx8RihMiX7N-N568tQ"
+            }
+        ],
         "info": 
         [
             [
@@ -921,11 +920,6 @@
                 {
                     "icon": "fa-globe",
                     "label": "http://cochinhairtransplant.in",
-                    "link": true
-                },
-                {
-                    "icon": "fa-youtube",
-                    "label": "https://www.youtube.com/channel/UCmxMjDx8RihMiX7N-N568tQ",
                     "link": true
                 }
             ]

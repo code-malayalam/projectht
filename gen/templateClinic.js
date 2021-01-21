@@ -78,6 +78,7 @@ function template1(clinic, docData = []) {
         status,
         places = [],
         info = [],
+        social = [],
         banner,
         bannerColor = 'white',
         doctors = [],
@@ -144,7 +145,21 @@ function template1(clinic, docData = []) {
                     </div>
                     ${getStatusDom(status)}
 
-
+                    ${
+                        social && social.length ? `
+                        <div class="clinic-content-row social-icons-container">
+                        ${
+                            social.map((sItem) => {
+                                return `
+                                <span class="social-icons">
+                                    <a target="_blank" href="${sItem.link}"><i class="fa ${sItem.icon} fa-lg" aria-hidden="true"></i></a>
+                                </span>`
+                            }).join('\n')
+                        }
+                        </div>`
+                            
+                        : ''
+                    }
                     ${
                         info.map((item) => {
                             return (
