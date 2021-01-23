@@ -122,6 +122,12 @@
         "id" : 24,
         "label": "Dr. Nafina Jasmine",
         "more": "Consultant Dermatologist"
+    },
+    {
+        "id" : 25,
+        "label": "Dr.Pranaya Bagde",
+        "more": "M.D.(DVL), DNB (D&V), MSc(Psychology)",
+        "link": "http://kingsway.designcan.in/specialities/dr-pranaya-bagde/"
     }
 
 ]

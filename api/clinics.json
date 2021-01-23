@@ -504,6 +504,85 @@
         "doctors": []
     },
     {
+        "name": "Hairfree & Hairgrow Clinic",
+        "id": "hairfreehairgrow",
+        "places": ["Kochi"],
+        "logo": "hairfreehairgrow.png",
+        "banner": "hairfreehairgrow-banner.png",
+        "bannerColor": "#4073bd",
+        "social": [
+            {
+                "icon": "fa-facebook",
+                "link": "https://www.facebook.com/hairfreehairgrow18"
+            },
+            {
+                "icon": "fa-instagram",
+                "link": "https://www.instagram.com/hairfree_hairgrow_clinic"
+            },
+            {
+                "icon": "fa-twitter",
+                "link": "https://twitter.com/AndHairfree"
+            },
+            {
+                "icon": "fa-youtube",
+                "link": "https://www.youtube.com/channel/UCSaDWMYuM04Ao6gi76WUBVQ"
+            },
+            {
+                "icon": "fa-linkedin",
+                "link": "https://www.linkedin.com/in/hairfree-hairgrow-768a69172"
+            },
+            {
+                "icon": "fa-pinterest",
+                "link": "https://in.pinterest.com/hairfreeandhairgrow/_created"
+            }
+        ],
+        "info": [
+            [
+                {
+                    "icon": "fa-whatsapp",
+                    "label": "+91 9607940300",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-envelope-open",
+                    "label": "hairfreehairgrow@gmail.com",
+                    "link": "mailto"
+                },
+                {
+                    "icon": "fa-globe",
+                    "label": "https://www.hairfreehairgrow.com",
+                    "link": true
+                }
+            ],
+            [
+                {
+                    "label" : "Kochi",
+                    "highlight": true
+                },
+                {
+                    "icon": "fa-map-marker",
+                    "label": "G-115, Ground floor, 3rd Cross Road GCDA Complex Lane, Panampilly Nagar, Kochi, Kerala 682036",
+                    "link": false
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 9607940300",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 9607940302",
+                    "link": "tel"
+                }
+            ]
+        ],
+        "doctors": [
+            {
+                "id": 25
+            }
+        ]
+    },
+    {
         "name": "Hair O Dent",
         "id": "hairodent",
         "places": ["Kochi"],
