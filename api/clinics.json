@@ -44,6 +44,7 @@
     },
     {
         "name": "Turkey Cosmetic and Hair Transplant Center",
+        "shortName": "Turkey Cochin",
         "id": "turkey_kerala",
         "status": "twoTick",
         "places": ["Kochi"],
@@ -1044,6 +1045,7 @@
     },
     {
         "name": "Madari Dental Clinic and Hair Transplant Center",
+        "shortName": "Madari",
         "id": "madari",
         "places": ["Nilambur"],
         "logo": "madari.png",
