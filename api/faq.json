@@ -113,5 +113,13 @@
             "q": "I did transplant one month ago. I unknowingly scratched the transplanted part. Will it affect my result?",
             "a": "Since the graft get fixed in 2 weeks, occasional scratching should be fine. But it recommended to take care the transplanted area for at-least 2 months."
         }
+    },
+    {
+        "id": "when_gym_after_hair_transplant",
+        "mal": {
+            "q": "Hair Transplant കഴിഞ്ഞാൽ എന്ന് മുതൽ ജിമ്മിന് പോകാം ?",
+            "a": "ഒരു മാസത്തിനു ശേഷം ജിമ്മിൽ പോകാം. Hair Transplant കഴിഞ്ഞ് ഒരു മാസം വരെ വിയർക്കുന്ന കായിക പ്രവർത്തികൾ ഒഴിവാക്കേണ്ടതാണ്."
+        },
+        "ref": ["https://www.themaitlandclinic.com/how-long-after-hair-transplant-can-exercise"]
     }
 ]
