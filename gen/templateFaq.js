@@ -71,7 +71,7 @@ function template1(faq, relatedFaqs = []) {
     const contentUrl = `${FAQ_BASE_URL}/faq${id}.html`;
     const encodedUrl = encodeURIComponent(contentUrl);
     const ques = q.replace(/\n/g, ' ');
-    const ans = a.replace(/\n/g, ' s');
+    const ans = a.replace(/\n/g, ' ');
 
     return `
         <!DOCTYPE html>
@@ -93,6 +93,7 @@ function template1(faq, relatedFaqs = []) {
                 <meta property="og:url" content="${contentUrl}"/>
                 ${img ? `<meta property="og:image" content="${IMAGE_BASE_URL}/${img}"/>` : ''}
                 ${audio && audio.length ? `<meta property="og:audio" content="${AUDIO_BASE_URL}/${audio[0]}"/>` : ''}
+                ${audio && audio.length ? `<meta property="og:image" content="${IMAGE_BASE_URL}/audio.png"/>` : ''}     
                 
 
                 <script src="/gtag.js"></script>
