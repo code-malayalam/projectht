@@ -110,6 +110,9 @@ function template1(clinic, docData = []) {
             <meta property="og:type" content="article"/>
             <meta property="og:site_name" content="HT Malayalam"/>
             <meta property="og:url" content="${contentUrl}">
+            <meta name="twitter:card" content="summary_large_image" />
+            
+            ${banner ? `<meta name="twitter:image" content="${ICON_BASE_URL}/${banner}"/>` : ''}
             ${banner ? `<meta property="og:image" content="${ICON_BASE_URL}/${banner}"/>` : ''}
 
             <link rel="stylesheet" href="/styles.css?v=2">
