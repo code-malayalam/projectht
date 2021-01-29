@@ -20,6 +20,11 @@
                     "link": "tel"
                 },
                 {
+                    "icon": "fa-phone",
+                    "label": "+91 79023 39539",
+                    "link": "tel"
+                },
+                {
                     "icon": "fa-envelope-open",
                     "label": "ladensitae.kl@gmail.com",
                     "link": "mailto"

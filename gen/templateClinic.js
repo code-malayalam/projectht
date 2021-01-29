@@ -67,7 +67,24 @@ function getInfoText(info) {
 
     return label + ' ' + moreLabel;
 
+}
 
+function getPlaceTitle(places = []) {
+    const retPlaces = places.slice(0, 2).join(', ')
+    if(places.length <= 2) {
+        return retPlaces;
+    }
+    return `${retPlaces} and more`;
+}
+
+function getPhoneTitle(info = []) {
+    const ret = []
+    info.forEach((arr = []) => arr.forEach((item) => {
+        if(item.link === 'tel'){
+            ret.push(item.label);
+        }
+    }));
+    return `Phone: ${ret.join(', ')}`;
 }
 
 function template1(clinic, docData = []) {
@@ -86,10 +103,12 @@ function template1(clinic, docData = []) {
     } = clinic;
 
 
-    const place = places.join(', ');
+    const titlePlaces = getPlaceTitle(places);
+    const titlePhones = getPhoneTitle(info);
 
     const contentUrl = `${CLINIC_BASE_URL}/${id}.html`;
     const encodedUrl = encodeURIComponent(contentUrl);
+
 
     return `
     <!DOCTYPE html>
@@ -105,15 +124,14 @@ function template1(clinic, docData = []) {
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-826R4FRRS7"></script>
             <script src="/gtag.js"></script>
 
-            <meta property="og:title" content="Hair Translpant Malayalam - ${name}"/>
-            <meta property="og:description" content="${name} - ${place}">
+            <meta property="og:title" content="${name} - ${titlePlaces}"/>
+            <meta property="og:description" content="${titlePhones}">
             <meta property="og:type" content="article"/>
             <meta property="og:site_name" content="HT Malayalam"/>
             <meta property="og:url" content="${contentUrl}">
             <meta name="twitter:card" content="summary_large_image" />
             
             ${banner ? `<meta name="twitter:image" content="${ICON_BASE_URL}/${banner}"/>` : ''}
-            ${banner ? `<meta property="og:image" content="${ICON_BASE_URL}/${banner}"/>` : ''}
 
             <link rel="stylesheet" href="/styles.css?v=2">
             <link rel="stylesheet" href="/stylesClinicGen.css?v=2">
