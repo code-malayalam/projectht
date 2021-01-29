@@ -258,7 +258,7 @@ function template1(clinic, docData = []) {
     
                 </div>
                 <div class="buttons share">
-                    <a href="${encodedUrl}">
+                    <a href="https://telegram.me/share/url?url=${encodedUrl}">
                         <i class="fa fa-telegram fa-lg" aria-hidden="true"></i>
                         Share to Telegram
                     </a>
