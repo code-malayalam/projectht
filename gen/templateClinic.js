@@ -100,7 +100,8 @@ function template1(clinic, docData = []) {
         banner,
         bannerColor = 'white',
         doctors = [],
-        doctorsLink
+        doctorsLink,
+        rate
     } = clinic;
 
 
@@ -165,6 +166,9 @@ function template1(clinic, docData = []) {
                     <div class="clinic-content-title">
                         ${name}
                     </div>
+                    ${
+                        rate ? `<div class="clinic-content-row"><i class="fa fa-inr fa-lg" aria-hidden="true"></i>  ${rate}</div>` : ''
+                    }
                     ${getStatusDom(status)}
 
                     ${

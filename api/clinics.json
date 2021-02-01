@@ -7,6 +7,7 @@
         "logo": "ladensitae.png",
         "banner": "ladensitae-banner.png",
         "rank": 1,
+        "rate": "Rs 15 per graft. Four prp free",
         "doctorsLink": "https://ladensitae.com/team-member",
         "info": [
             [
@@ -57,6 +58,7 @@
         "logo": "turkey.png",
         "banner": "turkey-banner.png",
         "rank": 2,
+        "rate": "Rs 13 per graft. One prp free",
         "doctorsLink": "http://www.turkeyhairtransplantcentre.com/doctors-surgeons-dermetologist.html",
         "social" : [
             {
@@ -119,6 +121,7 @@
         "logo": "hairtree.png",
         "banner": "hairtree-banner.jpg",
         "rank": 5,
+        "rate": "Rs 30 per graft.",
         "info": 
         [
             [
@@ -318,6 +321,7 @@
         "banner": "hairocraft-banner.png",
         "rank": 6,
         "status": "greenTick",
+        "rate": "Rs 20-25 per graft",
         "social" : [
             {
                 "icon": "fa-facebook",
@@ -475,6 +479,7 @@
         "logo": "hairgraaft.png",
         "banner": "hairgraaft-banner.png",
         "status": "greenTick",
+        "rate": "Rs 13-15 per graft.",
         "rank": 4,
         "social" : [
             {
@@ -525,6 +530,7 @@
         "banner": "hairfreehairgrow-banner.png",
         "bannerColor": "#4073bd",
         "status": "yellowTick",
+        "rate": "Rs 15 per graft.",
         "rank": 7,
         "social": [
             {
@@ -657,6 +663,7 @@
         "banner": "medlounges-banner.png",
         "bannerColor": "#743252",
         "status": "yellowTick",
+        "rate": "Rs 15-25 per graft",
         "rank": 9,
         "doctorsLink": "http://www.medlounges.com/team.html",
         "social": [
@@ -829,6 +836,7 @@
         "banner": "ci-banner.png",
         "status": "twoTick",
         "rank": 3,
+        "rate": "Rs 20 per graft. 4 prp free",
         "social": [
             {
                 "icon": "fa-facebook",
