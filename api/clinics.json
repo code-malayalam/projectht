@@ -6,6 +6,7 @@
         "places": ["Kochi"],
         "logo": "ladensitae.png",
         "banner": "ladensitae-banner.png",
+        "rank": 1,
         "doctorsLink": "https://ladensitae.com/team-member",
         "info": [
             [
@@ -55,6 +56,7 @@
         "places": ["Kochi"],
         "logo": "turkey.png",
         "banner": "turkey-banner.png",
+        "rank": 2,
         "doctorsLink": "http://www.turkeyhairtransplantcentre.com/doctors-surgeons-dermetologist.html",
         "social" : [
             {
@@ -116,6 +118,7 @@
         "places": ["Kochi", "Thrissur", "Malappuram", "Kozhikode", "Kannur"],
         "logo": "hairtree.png",
         "banner": "hairtree-banner.jpg",
+        "rank": 5,
         "info": 
         [
             [
@@ -239,6 +242,7 @@
         "places": ["Kochi", "Kozhikode"],
         "logo": "dhi.png",
         "banner": "dhi-banner.png",
+        "rank": 10,
         "doctorsLink": "https://www.dhiindia.com/our-team",
         "info": [
             [
@@ -312,6 +316,8 @@
         "places": ["Kochi", "Kozhikode", "Thrissur", "Kottayam", "Manjeri", "Thiruvananthapuram"],
         "logo": "hairocraft.png",
         "banner": "hairocraft-banner.png",
+        "rank": 6,
+        "status": "greenTick",
         "social" : [
             {
                 "icon": "fa-facebook",
@@ -468,6 +474,8 @@
         "places": ["Changanacherry"],
         "logo": "hairgraaft.png",
         "banner": "hairgraaft-banner.png",
+        "status": "greenTick",
+        "rank": 4,
         "social" : [
             {
                 "icon": "fa-facebook",
@@ -516,6 +524,8 @@
         "logo": "hairfreehairgrow.png",
         "banner": "hairfreehairgrow-banner.png",
         "bannerColor": "#4073bd",
+        "status": "yellowTick",
+        "rank": 7,
         "social": [
             {
                 "icon": "fa-facebook",
@@ -594,6 +604,7 @@
         "places": ["Kochi"],
         "logo": "hairodent.png",
         "banner": "hairodent-banner.png",
+        "rank": 12,
         "doctorsLink": "https://www.hairodent.com/doctors",
         "social" : [
             {
@@ -645,6 +656,8 @@
         "logo": "medlounges.png",
         "banner": "medlounges-banner.png",
         "bannerColor": "#743252",
+        "status": "yellowTick",
+        "rank": 9,
         "doctorsLink": "http://www.medlounges.com/team.html",
         "social": [
             {
@@ -731,6 +744,8 @@
         "places": ["Kochi", "Kozhikode"],
         "logo": "vplant.png",
         "banner": "vplant-banner.png",
+        "status": "yellowTick",
+        "rank": 13,
         "social": [
             {
                 "icon": "fa-facebook",
@@ -812,6 +827,8 @@
         "places": ["Kochi", "Kozhikode", "Thiruvananthapuram", "Kottakkal"],
         "logo": "ci.png",
         "banner": "ci-banner.png",
+        "status": "twoTick",
+        "rank": 3,
         "social": [
             {
                 "icon": "fa-facebook",
@@ -968,6 +985,8 @@
         "places": ["Kochi", "Perinthalmanna", "Kozhikode"],
         "logo": "cht.png",
         "banner": "cht-banner.png",
+        "status": "yellowTick",
+        "rank": 11,
         "social":[
             {
                 "icon": "fa-youtube",
@@ -1048,7 +1067,9 @@
         "id": "hpc",
         "places": ["Kochi"],
         "logo": "hpc.png",
+        "status": "yellowTick",
         "banner": "hpc-banner.png",
+        "rank": 14,
         "info": [
             [
                 {
@@ -1083,10 +1104,12 @@
     {
         "name": "Madari Dental Clinic and Hair Transplant Center",
         "shortName": "Madari",
+        "rank": 8,
         "id": "madari",
         "places": ["Nilambur"],
         "logo": "madari.png",
         "banner": "madari-banner.png",
+        "status": "yellowTick",
         "info": [
             [
                 {

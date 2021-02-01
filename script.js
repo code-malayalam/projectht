@@ -2,7 +2,11 @@ const CLINIC_DISPLAY_LENGTH = 5;
 
 let homeClikedStateDefault = true;
 
-function loadData(reqs, filter) {
+function sortClinics (data) {
+    return data.sort((a, b) => a.rank - b.rank);
+}
+
+function loadData(reqs) {
     const all = reqs.map((req) => {
         return fetch(req.url + '?v=2')
             .then((response) => {
@@ -10,10 +14,14 @@ function loadData(reqs, filter) {
                 return response.json();
             })
             .then((data) => {
-                if(filter) {
-                    return filter(data);
+                let ret = data;
+                if(req.filter) {
+                    ret = req.filter(data);
                 }
-                return data;
+                if(req.sort) {
+                    ret = req.sort(data);
+                }
+                return ret;
             })
             .catch((err) => {
                 console.log(err);

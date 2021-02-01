@@ -10,22 +10,22 @@ function getStatusDom(status) {
         case 'yellowTick':
             return `
                 <div class="labels">
-                    <label class="label1 border-label"> ഗ്രൂപ്പിൽ ഈ ക്ലിനിക്കിൽ നിന്നും ട്രാൻസ്‌പ്ലാന്റ് ചെയ്തതായി ഒന്നിൽ കൂടുതൽ ആളുകൾ പറഞ്ഞിട്ടുണ്ട്.</label>
+                    <label class="label1 border-label"> ഗ്രൂപ്പിൽ ഈ ക്ലിനിക്കിൽ നിന്നും ട്രാൻസ്‌പ്ലാന്റ് ചെയ്ത ഫോട്ടോ വന്നിട്ടുണ്ട്.</label>
                 </div> 
             `;
         case 'greenTick':
             return `
             <div class="labels">
-                <label class="label1 border-label"> ഗ്രൂപ്പിൽ ഈ ക്ലിനിക്കിൽ നിന്നും ട്രാൻസ്‌പ്ലാന്റ് ചെയ്തതായി ഒന്നിൽ കൂടുതൽ ആളുകൾ പറഞ്ഞിട്ടുണ്ട്.</label>
-                <label class="label2 border-label"> ഗ്രൂപ്പിൽ ഈ ക്ലിനിക്കിൽ നിന്നും നല്ല റിസൾട്ട് വന്നതായി ഒന്നിൽ കൂടുതൽ ആളുകൾ പറഞ്ഞിട്ടുണ്ട്.</label>
+                <label class="label1 border-label"> ഗ്രൂപ്പിൽ ഈ ക്ലിനിക്കിൽ നിന്നും ട്രാൻസ്‌പ്ലാന്റ് ചെയ്ത ഫോട്ടോ വന്നിട്ടുണ്ട്.</label>
+                <label class="label2 border-label"> ഗ്രൂപ്പിൽ ഈ ക്ലിനിക്കിൽ നിന്നും റിസൾട് ഫോട്ടോ വന്നിട്ടുണ്ട്.</label>
             </div> 
         `;
         case 'twoTick':
             return `
             <div class="labels">
-                <label class="label1 border-label"> ഗ്രൂപ്പിൽ ഈ ക്ലിനിക്കിൽ നിന്നും ട്രാൻസ്‌പ്ലാന്റ് ചെയ്തതായി ഒന്നിൽ കൂടുതൽ ആളുകൾ പറഞ്ഞിട്ടുണ്ട്.</label>
-                <label class="label2 border-label"> ഗ്രൂപ്പിൽ ഈ ക്ലിനിക്കിൽ നിന്നും നല്ല റിസൾട്ട് വന്നതായി ഒന്നിൽ കൂടുതൽ ആളുകൾ പറഞ്ഞിട്ടുണ്ട്.</label>
-                <label class="label3 border-label"> ഗ്രൂപ്പിൽ ക്ലിനിക്കിന്റെ ബാനർ വച്ച് ട്രാൻസ്‌പ്ലാന്റ് ചെയ്ത ഫോട്ടോ ഒന്നിൽ കൂടുതൽ ആളുകൾ പോസ്റ്റ് ചെയ്തിട്ടുണ്ട്.</label>
+                <label class="label1 border-label"> ഗ്രൂപ്പിൽ ഈ ക്ലിനിക്കിൽ നിന്നും ട്രാൻസ്‌പ്ലാന്റ് ചെയ്ത ഫോട്ടോ വന്നിട്ടുണ്ട്.</label>
+                <label class="label2 border-label"> ഗ്രൂപ്പിൽ ഈ ക്ലിനിക്കിൽ നിന്നും റിസൾട് ഫോട്ടോ വന്നിട്ടുണ്ട്.</label>
+                <label class="label3 border-label"> ഗ്രൂപ്പിൽ ക്ലിനിക്കിന്റെ ബാനർ വച്ച് ട്രാൻസ്‌പ്ലാന്റ് ചെയ്ത ഫോട്ടോ വന്നിട്ടുണ്ട്.</label>
             </div> 
         `;
     
@@ -266,7 +266,7 @@ function template1(clinic, docData = []) {
                 </div>
             </div>
             <div class="buttons">
-                <a href="/clinics.html"> ക്ലിനിക്കുകൾ </a>
+                <a href="/clinics.html"> മറ്റു ക്ലിനിക്കുകൾ </a>
                 <a href="/faqs.html"> സംശയങ്ങൾ  </a>
             </div>
             <div class="bottom"> &#169;	htmalayalam.in. All rights reserved.</div>

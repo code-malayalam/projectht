@@ -3,7 +3,8 @@ window.onload = function() {
         {
             url: '/api/clinics.json',
             id: 'clinics',
-            cb: createClinicItem
+            cb: createClinicItem,
+            sort: sortClinics
         }, {
             url: '/api/faq.json',
             id: 'faq',
