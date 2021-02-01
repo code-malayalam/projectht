@@ -70,8 +70,9 @@ function getInfoText(info) {
 }
 
 function getPlaceTitle(places = []) {
-    const retPlaces = places.slice(0, 2).join(', ')
-    if(places.length <= 2) {
+    const count = 10;
+    const retPlaces = places.slice(0, count).join(', ')
+    if(places.length <= count) {
         return retPlaces;
     }
     return `${retPlaces} and more`;
