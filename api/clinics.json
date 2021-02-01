@@ -972,15 +972,19 @@
             {
                 "icon": "fa-youtube",
                 "link": "https://www.youtube.com/channel/UCmxMjDx8RihMiX7N-N568tQ"
+            },
+            {
+                "icon": "fa-facebook",
+                "link": "https://www.facebook.com/cochinhairtransplantation"
             }
         ],
         "info": 
         [
             [
                 {
-                    "icon": "fa-map-marker",
-                    "label": "2nd Floor, Rubicon Building, Opp. HP Petrol Bunk, Valanjambalam, Pallimukku, Cochin",
-                    "link": false
+                    "icon": "fa-phone",
+                    "label": "91 80079 11118",
+                    "link": "tel"
                 },
                 {
                     "icon": "fa-phone",
@@ -993,11 +997,6 @@
                     "link": "tel"
                 },
                 {
-                    "icon": "fa-phone",
-                    "label": "91 80079 11118",
-                    "link": "tel"
-                },
-                {
                     "icon": "fa-envelope-open",
                     "label": "cochinhairtransplant@gmail.com",
                     "link": "mailto"
@@ -1006,6 +1005,39 @@
                     "icon": "fa-globe",
                     "label": "http://cochinhairtransplant.in",
                     "link": true
+                }
+            ],
+            [
+                {
+                    "label": "Kochi",
+                    "highlight": true
+                },
+                {
+                    "icon": "fa-map-marker",
+                    "label": "2nd Floor, Rubicon Building, Opp. HP Petrol Bunk, Valanjambalam, Pallimukku, Cochin",
+                    "link": false
+                }
+            ],
+            [
+                {
+                    "label": "Perinthalmanna",
+                    "highlight": true
+                },
+                {
+                    "icon": "fa-map-marker",
+                    "label": "1st floor,Nilambur road, Malappuram - Perinthalmanna Rd, opp. Chat n chill restaurant, Perintalmanna",
+                    "link": false
+                }
+            ],
+            [
+                {
+                    "label": "Kozhikode",
+                    "highlight": true
+                },
+                {
+                    "icon": "fa-map-marker",
+                    "label": "Chamayam Building Opp Kalyan Silks, above Chicking, Kottooli, Kozhikode",
+                    "link": false
                 }
             ]
         ],
