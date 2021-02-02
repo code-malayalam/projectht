@@ -130,7 +130,7 @@ function template1(clinic, docData = []) {
             <meta property="og:title" content="${name} - ${titlePlaces}"/>
             <meta property="og:description" content="${titlePhones}">
             <meta property="og:type" content="article"/>
-            <meta property="og:site_name" content="HT Malayalam"/>
+            <meta property="og:site_name" content="HT Malayalam - Hair Transplant Portal"/>
             <meta property="og:url" content="${contentUrl}">
             <meta name="twitter:card" content="summary_large_image" />
             

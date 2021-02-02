@@ -89,7 +89,7 @@ function template1(faq, relatedFaqs = []) {
                 <meta property="og:title" content="${ques}"/>
                 <meta property="og:description" content="${ans}">
                 <meta property="og:type" content="article"/>
-                <meta property="og:site_name" content="HT Malayalam"/>
+                <meta property="og:site_name" content="HT Malayalam - Hair Transplant Portal"/>
                 <meta property="og:url" content="${contentUrl}"/>
                 ${img ? `<meta property="og:image" content="${IMAGE_BASE_URL}/${img}"/>` : ''}
                 ${audio && audio.length ? `<meta property="og:audio" content="${AUDIO_BASE_URL}/${audio[0]}"/>` : ''}
