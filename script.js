@@ -19,7 +19,7 @@ function loadData(reqs) {
                     ret = req.filter(data);
                 }
                 if(req.sort) {
-                    ret = req.sort(data);
+                    ret = req.sort(ret);
                 }
                 return ret;
             })

@@ -98,6 +98,7 @@ function template1(clinic, docData = []) {
         info = [],
         social = [],
         banner,
+        logo,
         bannerColor = 'white',
         doctors = [],
         doctorsLink,
@@ -133,7 +134,7 @@ function template1(clinic, docData = []) {
             <meta property="og:url" content="${contentUrl}">
             <meta name="twitter:card" content="summary_large_image" />
             
-            ${banner ? `<meta name="twitter:image" content="${ICON_BASE_URL}/${banner}"/>` : ''}
+            ${logo ? `<meta name="twitter:image" content="${ICON_BASE_URL}/${logo}"/>` : ''}
 
             <link rel="stylesheet" href="/styles.css?v=2">
             <link rel="stylesheet" href="/stylesClinicGen.css?v=2">
