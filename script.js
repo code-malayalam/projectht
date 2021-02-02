@@ -7,6 +7,8 @@ function sortClinics (data) {
 }
 
 function loadData(reqs) {
+    const unfilteredData = [];
+
     const all = reqs.map((req) => {
         return fetch(req.url + '?v=2')
             .then((response) => {
@@ -14,6 +16,7 @@ function loadData(reqs) {
                 return response.json();
             })
             .then((data) => {
+                unfilteredData.push(data);
                 let ret = data;
                 if(req.filter) {
                     ret = req.filter(data);
@@ -38,7 +41,12 @@ function loadData(reqs) {
                 var node = document.getElementById(reqs[index].id);
                 node.insertAdjacentHTML('beforeend', dom);
             });
+            return data;
         })
+    return Promise.all(all)
+        .then(() => {
+            return unfilteredData;
+        });
 }
 
 function gotoFaq(id) {
