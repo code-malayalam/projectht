@@ -50,23 +50,23 @@ function loadData(reqs) {
 }
 
 function gotoFaq(id) {
-    window.location = `/faq/${id}.html`;
+    window.location = `/faq/${id}`;
 }
 
 function gotoClinic(id) {
-    window.location = `/clinic/${id}.html`;
+    window.location = `/clinic/${id}`;
 }
 
 function gotoAllClinics() {
-    window.location = '/clinics.html';
+    window.location = '/clinics';
 }
 
 function gotoAllFaqs() {
-    window.location = '/faqs.html';
+    window.location = '/faqs';
 }
 
 function goHome() {
-    window.location = '/index.html';
+    window.location = '/index';
 }
 
 function goBack() {

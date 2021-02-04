@@ -68,7 +68,7 @@ function template1(faq, relatedFaqs = []) {
         a
     } = mal;
 
-    const contentUrl = `${FAQ_BASE_URL}/faq${id}.html`;
+    const contentUrl = `${FAQ_BASE_URL}/faq${id}`;
     const encodedUrl = encodeURIComponent(contentUrl);
     const ques = q.replace(/\n/g, ' ');
     const ans = a.replace(/\n/g, ' ');
@@ -175,8 +175,8 @@ function template1(faq, relatedFaqs = []) {
 
                 
                 <div class="buttons">
-                    <a href="/clinics.html"> ക്ലിനിക്കുകൾ </a>
-                    <a href="/faqs.html"> സംശയങ്ങൾ  </a>
+                    <a href="/clinics"> ക്ലിനിക്കുകൾ </a>
+                    <a href="/faqs"> സംശയങ്ങൾ  </a>
                 </div>
                 <div class="bottom"> &#169;	htmalayalam.in. All rights reserved.</div>
             </body>

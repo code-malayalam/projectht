@@ -109,7 +109,7 @@ function template1(clinic, docData = []) {
     const titlePlaces = getPlaceTitle(places);
     const titlePhones = getPhoneTitle(info);
 
-    const contentUrl = `${CLINIC_BASE_URL}/${id}.html`;
+    const contentUrl = `${CLINIC_BASE_URL}/${id}`;
     const encodedUrl = encodeURIComponent(contentUrl);
 
 
@@ -271,8 +271,8 @@ function template1(clinic, docData = []) {
                 </div>
             </div>
             <div class="buttons">
-                <a href="/clinics.html"> മറ്റു ക്ലിനിക്കുകൾ </a>
-                <a href="/faqs.html"> സംശയങ്ങൾ  </a>
+                <a href="/clinics"> മറ്റു ക്ലിനിക്കുകൾ </a>
+                <a href="/faqs"> സംശയങ്ങൾ  </a>
             </div>
             <div class="bottom"> &#169;	htmalayalam.in. All rights reserved.</div>
         </body>

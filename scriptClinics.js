@@ -2,9 +2,9 @@
 function onPlaceSelect(param) {
     const place = param.value;
     if(!place || place === 'All Places') {
-        window.location = "/clinics.html";
+        window.location = "/clinics";
     } else {
-        window.location = "/clinics.html?place=" + place.toLocaleLowerCase();
+        window.location = "/clinics?place=" + place.toLocaleLowerCase();
     }
 }
 
