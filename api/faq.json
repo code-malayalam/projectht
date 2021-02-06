@@ -173,12 +173,22 @@
         "tags": ["post"]
     },
     {
+        "id": "wearing_helmet",
+        "mal": {
+            "q": "Hair transplant കഴിഞ്ഞ് എന്ന് മുതൽ helmet ധരിക്കാം ?",
+            "a": "ഒരുമാസം കഴിഞ്ഞാൽ helmet ധരിക്കാവുന്നതാണ്. ധരിക്കുമ്പോൾ ഒരു കോട്ടൺ തുണി വച്ച് തല മറച്ച ശേഷം ധരിക്കുക."
+        },
+        "ref": ["https://www.realself.com/question/wearing-helmet-after-weeks-fut"],
+        "keywords": ["helmet"],
+        "tags": ["post"]
+    },
+    {
         "id": "wearing_cap",
         "mal": {
             "q": "Hair transplant കഴിഞ്ഞ് എന്ന് മുതൽ തൊപ്പി ധരിക്കാം ?",
             "a": "പത്തു ദിവസം കഴിഞ്ഞാൽ തൊപ്പി ധരിക്കാവുന്നതാണ്. പത്തു ദിവസത്തിന് മുന്നേ പുറത്തിറങ്ങുമ്പോൾ ലൂസ് സർജിക്കൽ തൊപ്പി ധരിക്കേണ്ടതാണ് "
         },
-        "ref": ["https://www.realself.com/question/wearing-helmet-after-weeks-fut"],
+        "ref": ["https://www.njfue.com/blog/can-you-wear-a-hat-after-a-hair-transplant"],
         "keywords": ["cap"],
         "tags": ["post"]
     }
