@@ -5,7 +5,9 @@
             "q": "എന്താണ് ഹെയർ ട്രാൻസ്‌പ്ലാന്റ് സർജറി ?",
             "a": "കഷണ്ടി താരതമ്യേനെ കുറവ് അനുഭവയോപ്പെടുന്ന ഭാഗത്തു നിന്നും (തലയുടെ പിൻഭാഗത്തും മറ്റും) മുടി ഗ്രാഫ്റ്റുകൾ എടുത്ത് കഷണ്ടി ബാധിച്ച ഭാഗത്തേക്ക് പറിച്ചു നടുന്ന സർജറി ആണ് ഹെയർ ട്രാൻസ്‌പ്ലാന്റ് സർജറി."
         },
-        "ref": ["https://en.wikipedia.org/wiki/Hair_transplantation"]
+        "ref": ["https://en.wikipedia.org/wiki/Hair_transplantation"],
+        "keywords": ["transplant", "surgery"],
+        "tags": ["tech"]
     },
     {
         "id": 4,
@@ -13,28 +15,36 @@
             "q": "എന്താണ് ഗ്രാഫ്റ്റ് ?",
             "a": "രണ്ടോ മൂന്നോ മുടികൾ അടങ്ങുന്ന ഒരു ചെറിയ ഭാഗം ദശയാണ് ഒരു ഗ്രാഫ്ട്. ഗ്രാഫ്റ്റുകൾ ആണ് ഹെയർ ട്രാൻസ്‌പ്ലാന്റ് ചെയ്യുമ്പോൾ പറിച്ചു നടുന്നത്."
         },
-        "ref": ["https://www.hairclub.com/blog/what-hair-graft-and-how-it-created/"]
+        "ref": ["https://www.hairclub.com/blog/what-hair-graft-and-how-it-created/"],
+        "keywords": ["graft"],
+        "tags": ["tech"]
     },
     {
         "id": 5,
         "mal": {
-            "q": "എന്താണ് safe area ?",
+            "q": "എന്താണ് safe doner area ?",
             "a": "കഷണ്ടി കുറവ് ബാധിക്കുന്ന ട്രാൻസ്പ്ലാന്റിനു അനുയോജ്യമായ മുടിയുള്ള ശരീരത്തിലെ ഭാഗമാണ് safe area. ട്രാൻസ്‌പ്ലാന്റ് ചെയ്യാൻ ഗ്രാഫ്റ്റുകൾ ശേഖരിക്കുന്നത് ഇവിടെ നിന്നാണ്. safe areaൽ നിന്നും ഗ്രാഫ്റ്റ് ശേഖരിക്കാത്ത പക്ഷം ട്രാൻസ്‌പ്ലാന്റ് ചെയ്ത മുടിയുടെ ആയുസ്സ് കുറയാൻ സാധ്യത ഉണ്ട്."
-        }
+        },
+        "keywords": ["doner", "safe"],
+        "tags": ["tech"]
     },
     {
         "id": 6,
         "mal": {
             "q": "എന്താണ് donor area ?",
             "a": "ട്രാൻസ്‌പ്ലാന്റ് ചെയ്യാൻ മുടി എടുക്കുന്ന സ്ഥലമാണ് donor area. ഇത് പൊതുവെ തലയുടെ പിൻഭാഗം ആണ്."
-        }
+        },
+        "keywords": ["doner"],
+        "tags": ["tech"]
     },
     {
         "id": 7,
         "mal": {
             "q": "എന്താണ് FUT FUE രീതികൾ ?",
             "a": "ഇവ രണ്ടിലും FUT ആണ് ആദ്യം വന്ന രീതി. തലയുടെ പുറകിൽ നിന്നും ഒരു നീണ്ട വരയിൽ മുടിയടങ്ങുന്ന ദശ ചീന്തിയെടുത്താണ് ഗ്രാഫ്റ്റുകൾ ശേഖരിക്കുന്നത്. ഈ ശേഖരിച്ച ഗ്രാഫ്റ്റുകൾ ആണ് കഷണ്ടിയുള്ള ഭാഗത്ത് നടുന്നത്.\nFUE താരതമ്യേനെ ആധുനിക രീതിയാണ്. ഈ രീതിയിൽ ഗ്രാഫ്ട് ശേഖരിക്കുന്നത് ഓരോ ഗ്രാഫ്റ്റുകളായി പല ഭാഗത്തു നിന്നാണ് അങ്ങിങ്ങായാണ്. ഗ്രാഫ്ട് നടുന്ന രീതിയിൽ FUEയും FUTയും തമ്മിൽ വലിയ വ്യത്യാസമില്ല."
-        }
+        },
+        "keywords": ["fut", "fue"],
+        "tags": ["tech"]
     },
     {
         "id": 8,
@@ -42,7 +52,9 @@
             "q": "സ്ത്രീകൾക്ക് hair transplant ചെയ്യാമോ ?",
             "a": "ചെയ്യാം.\nപക്ഷെ ഇതിന്റെ ഗുണം കിട്ടുന്ന സ്ത്രീകൾ വളരെ കുറവാണ്. ആണുങ്ങളെ പോലെ ചില ഭാഗത്തു മാത്രമായല്ല സ്ത്രീകളുടെ മുടി കൊഴിച്ചൽ. സ്ത്രീകളുടെ എല്ലാ ഭാഗത്തു നിന്നാണ് മുടി പോകുന്നത്. അതുകൊണ്ടു തന്നെ സ്ത്രീകൾക്ക് doner area ഇല്ല. അതിനാൽ ട്രാൻസ്ലപ്ലാന്റ് ചെയ്താ മുടിയുടെ ആയുസ്സ് മറ്റു മുടിയുടെ പോലെ തന്നെ ആവും. മറ്റു മുടികൾ പെട്ടന്ന് കൊഴിയുന്നുണ്ടെങ്കിൽ ട്രാൻസ്‌പ്ലാന്റ് ചെയ്ത മുടിയും പെട്ടന്ന് കൊഴിഞ്ഞു പോകും.\n\nഎന്നാൽ ഏതെങ്കിലും ചില അസുഖം ബാധിച്ചോ മറ്റോ ചില ഭാഗത്തു മാത്രമാണ് മുടി ട്രാൻസ്‌പ്ലാന്റ് ചെയ്യുന്നതെങ്കിൽ ഹെയർ ട്രാൻസ്‌പ്ലാന്റ് സ്ത്രീകൾക്കും ഫലപ്രദമാണ്."
         },
-        "ref": ["https://www.webmd.com/skin-problems-and-treatments/hair-loss/women-hair-restoration"]
+        "ref": ["https://www.webmd.com/skin-problems-and-treatments/hair-loss/women-hair-restoration"],
+        "keywords": ["women", "girls", "women", "female"],
+        "tags": ["generic", "female"]
     },
     {
         "id": 9,
@@ -50,14 +62,18 @@
             "q": "ട്രാൻസ്‌പ്ലാന്റ് ചെയ്ത മുടി എത്ര കാലം നിലനിൽക്കും?",
             "a": "പഠനങ്ങൾ പറയുന്നത് 85  മുതൽ 90 ശതമാനം വരെ ട്രാൻസ്‌പ്ലാന്റ് ചെയ്യുന്ന മുടി വളർന്നു വരും എന്നതാണ്. സാങ്കേതികമായി പറയുകയാണെങ്കിൽ donor areaയിലെ മുടി എത്രകാലം നിലനിൽക്കും അത്രയും കാലം ട്രാൻസ്‌പ്ലാന്റ് ചെയ്താ മുടിയും നിലനിൽക്കും. എന്നാൽ ചില കാര്യങ്ങൾ ട്രാൻസ്‌പ്ലാന്റ് ചെയ്ത മുടിയെ ബാധിക്കും.  അതിൽ ചിലത് ട്രാൻസ്‌പ്ലാന്റ് ചെയ്യുന്ന ഡോക്ടറുടെ പ്രവർത്തി പരിചയം നമ്മുടെ ആരോഗ്യം എന്നിവ ഒക്കെ ആണ്. "
         },
-        "ref": ["https://www.hairsure.in/what-is-the-success-rate-of-hair-transplant"]
+        "ref": ["https://www.hairsure.in/what-is-the-success-rate-of-hair-transplant"],
+        "keywords": ["lifetime"],
+        "tags": ["generic"]
     },
     {
         "id": 10,
         "mal": {
             "q": "ഹെയർ ട്രാൻസ്പ്ലാന്റിനു മുൻപ് എന്തൊക്കെ ടെസ്റ്റുകൾ ചെയ്യണം ?",
             "a": "കേരളത്തിലെ ഒരു ക്ലിനിക്കിൽ നിന്നും കിട്ടിയ ലിസ്റ്റ് പ്രകാരം ഇതൊക്കെയാണ് ഹെയർ ട്രാൻസ്പ്ലാന്റിനു മുൻപ് ചെയ്യേണ്ട ടെസ്റ്റുകൾ.\n\nFBS & PLBS.\nCBC.\nRFT.\nLFT.\nPT/INR.\nHIV (I/II).\nHbsAg.\nECG മുപ്പതു വയസ്സിനു മീതെ ഉള്ളവർക്ക്.\n\nCovid test (സർജറിക്കു രണ്ടു ദിവസം മുന്നേ):\nAntigen test.\nവിദേശത്തിൽനിന്നും വരുന്നവർക്ക് RTPCR test നോർബന്ധം."
-        }
+        },
+        "keywords": ["tests"],
+        "tags": ["pre"]
     },
     {
         "id": 11,
@@ -65,7 +81,9 @@
             "q": "Finastride മരുന്നിന് sexual side effect ഉള്ളതുകാരണം അത് സ്ഥിരമായി കഴിക്കുന്നത് ഉചിതമാണോ ?",
             "a": "Finastridന്റെ sexual side effect മിക്കവാറും Nocebo Effectഉമായി ഉണ്ടാവുന്നതായാണ് പറയപ്പെടുന്നത്. പ്രത്യേകിച്ച് കൊഴിച്ചികുമായി ബന്ധപ്പെട്ട് കുറഞ്ഞ ഡോസിൽ മരുന്ന് കഴിക്കുമ്പോൾ.\n\nകൂടുതൽ അറിയാൻ ഗ്രൂപ്പിൽ ഒരു ഡോക്ടർ പറഞ്ഞ ഓഡിയോ കേക്കുക."
         },
-        "audio": ["1.opus"]
+        "audio": ["1.opus"],
+        "keywords": ["medication"],
+        "tags": ["post", "medicines"]
     },
     {
         "id": 12,
@@ -73,7 +91,9 @@
             "q": "Hair Transplantന് insurance ലഭിക്കുമോ ?",
             "a": "Hair Transplant ഒരു സൗന്ദര്യവര്‍ദ്ധക ശസ്ത്രക്രിയയാണ്. അതുകൊണ്ട് ഇൻഷുറൻസ് ലഭിക്കുകയില്ല. എന്നാൽ HDFC Bajaj Finserve തുടങ്ങിയ സ്ഥാപനങ്ങൾ EMI സൗകര്യം നൽകുന്നുണ്ട്."
         },
-        "ref": ["https://www.policyx.com/health-insurance/articles/hair-loss-treatment-cover-in-health-insurance"]
+        "ref": ["https://www.policyx.com/health-insurance/articles/hair-loss-treatment-cover-in-health-insurance"],
+        "keywords": ["insurance"],
+        "tags": ["pre"]
     },
     {
         "id": 13,
@@ -81,7 +101,9 @@
             "q": "Transplant കഴിഞ്ഞു 5 ദിവസത്തിനിപ്പുറം scab (പോറ്റൻ) കൊഴിഞ്ഞു പോകുന്നു. ഒപ്പം ചിലതിൽ മുടിയും. ഇത് സ്വാഭാവികമാണോ ?",
             "a": "അതെ. Transplant കഴിഞ്ഞ് മൂന്നാം ദിവസം മുതൽ scab കൊഴിഞ്ഞു പോരാം. ഇതിൽ മുടി കാണുന്നതും സ്വാഭാവികമാണ്.\nഎന്നിരുന്നാലും scab നുള്ളി എടുക്കുന്നതു ചൊറിയുന്നതോ പരമാവധി ഒഴിവാക്കണം. അല്ലാത്ത പക്ഷം ഇൻഫെക്ഷൻ ഉണ്ടായാൽ അത് ഗ്രാഫ്റ്റിനെ ബാധിക്കും. "
         },
-        "ref": ["https://www.wolfhair.com/hair-regrowth/hair-transplants/procedure/post-op/#:~:text=The%20graft%20sites%20will%20form,the%20survival%20of%20the%20grafts."]
+        "ref": ["https://www.wolfhair.com/hair-regrowth/hair-transplants/procedure/post-op/#:~:text=The%20graft%20sites%20will%20form,the%20survival%20of%20the%20grafts."],
+        "keywords": ["scabs"],
+        "tags": ["post"]
     },
     {
         "id": 14,
@@ -89,7 +111,9 @@
             "q": "Hair Transplant സർജറി കഴിഞ്ഞു ഒരു മാസത്തിലേറെയായി. ഇപ്പോഴും തലയുടെ പല ഭാഗത്തും മരവിപ്പ് അനുഭവപ്പെടുന്നു.",
             "a": "ഇത് സ്വാഭാവികമാണ്. സർജറി സമയത്തു ചർമത്തിലെ ചെറു നാഡികൾ മുറിഞ്ഞിട്ടുണ്ടാവും. അതാണ് മരവിപ്പ് അനുഭവപ്പെടുന്നത്. ഇത് സാധാരണയായി രണ്ടു മുതൽ ആറു മാസത്തിനകം ശരിയാവും.\nചിലപ്പോൾ ചില നാഡികൾ കൂടുതൽ പരിക്ക് പറ്റിയിട്ടുണ്ടാവാം. അങ്ങനത്തെ അവസ്ഥയിൽ ആറു മാസം കഴിഞ്ഞും ചിലപ്പോൾ മരവിപ്പ് തുടരാം. ഈ അവസ്ഥയിൽ താങ്കളുടെ ഡോക്ടറുമായി ബന്ധപ്പെടേണ്ടതാണ്. ഇത് പക്ഷെ വളരെ വിരളമായി സംഭവിക്കുന്ന ഒന്നാണ്.   "
         },
-        "ref": ["https://www.realself.com/question/croatia-numbness-months-after-fue-hair-transplant-nerves-damaged-prmanent"]
+        "ref": ["https://www.realself.com/question/croatia-numbness-months-after-fue-hair-transplant-nerves-damaged-prmanent"],
+        "keywords": ["numb", "numbness"],
+        "tags": ["post"]
     },
     {
         "id": 1,
@@ -101,7 +125,9 @@
         "eng" : {
             "q": "I am getting scales like this. Is this fine?",
             "a": "Yes. Few of them have posted same query before. The response that that is it ok. And it wont affect the result. Spray saline water regularly."
-        }
+        },
+        "keywords": ["scales"],
+        "tags": ["post"]
     },
     {
         "id": 2,
@@ -112,7 +138,9 @@
         "eng" : {
             "q": "I did transplant one month ago. I unknowingly scratched the transplanted part. Will it affect my result?",
             "a": "Since the graft get fixed in 2 weeks, occasional scratching should be fine. But it recommended to take care the transplanted area for at-least 2 months."
-        }
+        },
+        "keywords": ["scratch", "itch"],
+        "tags": ["post"]
     },
     {
         "id": "when_gym_after_hair_transplant",
@@ -120,7 +148,9 @@
             "q": "Hair Transplant കഴിഞ്ഞാൽ എന്ന് മുതൽ ജിമ്മിന് പോകാം ?",
             "a": "ഒരു മാസത്തിനു ശേഷം ജിമ്മിൽ പോകാം. Hair Transplant കഴിഞ്ഞ് ഒരു മാസം വരെ വിയർക്കുന്ന കായിക പ്രവർത്തികൾ ഒഴിവാക്കേണ്ടതാണ്."
         },
-        "ref": ["https://www.themaitlandclinic.com/how-long-after-hair-transplant-can-exercise"]
+        "ref": ["https://www.themaitlandclinic.com/how-long-after-hair-transplant-can-exercise"],
+        "keywords": ["gym"],
+        "tags": ["post"]
     },
     {
         "id": "alopacia_areata_hair_transplant",
@@ -128,7 +158,9 @@
             "q": "അലോപേഷ്യക്ക് (Alopecia Areata) hair transplant പരിഹാരമാണോ ?",
             "a": "പൊതുവെ Alopecia Areata പരിഹരിക്കാൻ hair transplant നിർദ്ദേശിക്കാറില്ല. അതിന് പലകാരണങ്ങൾ ഉണ്ട്.\n\n1) Alopecia Areataക്ക് safe doner area ഇല്ല. അതായത് ഏതു ഭാഗത്തെ മുടിയും കൊഴിയാം. അതുകൊണ്ട് ട്രാൻസ്‌പ്ലാന്റ് കഴിഞ്ഞ മുടി നിലനിൽക്കും എന്ന് ഉറപ്പു പറയാൻ പറ്റില്ല.\n\n2) ഉള്ള മുടി transplant ചെയ്യാൻ തികയാതെ വരും.\n\nഎന്നാലും വളരെ വർഷങ്ങളായി ഒരു ചെറിയ ഭാഗത്ത് മാത്രമാണ് Alopecia Areata ബാധിച്ചിട്ടുള്ളത് എങ്കിൽ. നല്ല ഒരു ഡോക്ടറെ കണ്ട് translplant പരീക്ഷിക്കാമോ എന്ന് ചോദിക്കാവുന്നതാണ്."
         },
-        "ref": ["https://www.youtube.com/watch?v=mwvIHoao0IM", "https://www.quora.com/Is-hair-transplant-treatment-the-only-solution-for-an-alopecia-areata-problem"]
+        "ref": ["https://www.youtube.com/watch?v=mwvIHoao0IM", "https://www.quora.com/Is-hair-transplant-treatment-the-only-solution-for-an-alopecia-areata-problem"],
+        "keywords": ["alopacia", "areata"],
+        "tags": ["generic"]
     },
     {
         "id": "alcohol_after_ht",
@@ -136,7 +168,18 @@
             "q": "Hair transplant കഴിഞ്ഞ് എന്ന് മുതൽ മദ്യം കഴിച്ചു തുടങ്ങാം ?",
             "a": "രണ്ടാഴ്‌ച മുതൽ ഒരു മാസം വരെയാണ് ക്ലിനിക്കുകൾ മദ്ധ്യം ഒഴിവാക്കാൻ പറയുന്നത്. നിങ്ങളുടെ ക്ലിനിക് പറയുന്ന നിർദ്ദേശം അനുസരിക്കുക."
         },
-        "ref": ["https://www.themaitlandclinic.com/drink-alcohol-before-after-hair-transplant"]
+        "ref": ["https://www.themaitlandclinic.com/drink-alcohol-before-after-hair-transplant"],
+        "keywords": ["alcohol"],
+        "tags": ["post"]
+    },
+    {
+        "id": "wearing_cap",
+        "mal": {
+            "q": "Hair transplant കഴിഞ്ഞ് എന്ന് മുതൽ തൊപ്പി ധരിക്കാം ?",
+            "a": "പത്തു ദിവസം കഴിഞ്ഞാൽ തൊപ്പി ധരിക്കാവുന്നതാണ്. പത്തു ദിവസത്തിന് മുന്നേ പുറത്തിറങ്ങുമ്പോൾ ലൂസ് സർജിക്കൽ തൊപ്പി ധരിക്കേണ്ടതാണ് "
+        },
+        "ref": ["https://www.realself.com/question/wearing-helmet-after-weeks-fut"],
+        "keywords": ["cap"],
+        "tags": ["post"]
     }
-
 ]
