@@ -9,6 +9,12 @@
         "rank": 1,
         "rate": "Rs 15 per graft. Four prp free",
         "doctorsLink": "https://ladensitae.com/team-member",
+        "social" : [
+            {
+                "icon": "fa-youtube",
+                "link": "https://www.youtube.com/channel/UCGmv4-IpcEb1oAjiOCt4QnQ"
+            }
+        ],
         "info": [
             [
                 {
