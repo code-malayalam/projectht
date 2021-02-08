@@ -7,7 +7,7 @@
         "logo": "ladensitae.png",
         "banner": "ladensitae-banner.png",
         "rank": 1,
-        "rate": "Rs 15 per graft. Four prp free",
+        "rate": "Rs 15 per graft. 4 prp free",
         "doctorsLink": "https://ladensitae.com/team-member",
         "social" : [
             {
@@ -64,7 +64,7 @@
         "logo": "turkey.png",
         "banner": "turkey-banner.png",
         "rank": 2,
-        "rate": "Rs 13 per graft. One prp free",
+        "rate": "Rs 13 per graft. 1 prp free",
         "doctorsLink": "http://www.turkeyhairtransplantcentre.com/doctors-surgeons-dermetologist.html",
         "social" : [
             {
@@ -127,7 +127,7 @@
         "logo": "hairtree.png",
         "banner": "hairtree-banner.jpg",
         "rank": 5,
-        "rate": "Rs 30 per graft.",
+        "rate": "Arround Rs 30 per graft.",
         "info": 
         [
             [
@@ -1124,6 +1124,7 @@
         "logo": "madari.png",
         "banner": "madari-banner.png",
         "status": "yellowTick",
+        "rate":"Rs 15-20 per graft",
         "info": [
             [
                 {

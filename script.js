@@ -128,12 +128,14 @@ function createClinicItem(item, index) {
     const {
         id,
         name,
+        rate,
         logo = 'favicon.png',
         places = []
     }  = item;
 
     const place = places.join(', ');
     const className = index >= CLINIC_DISPLAY_LENGTH ? 'hide-at-homepage': '';
+    const rateText = rate ? rate : '';
 
     return `
         <div class="clinic-item section-item ${className}" onclick="gotoClinic('${id}')">
@@ -143,6 +145,9 @@ function createClinicItem(item, index) {
             <div class="clinic-body">
                 <div class="clinic-title">
                     ${name}
+                </div>
+                <div class="clinic-descr">
+                    ${rateText}
                 </div>
                 <div class="clinic-descr">
                     ${place}
