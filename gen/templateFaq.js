@@ -68,7 +68,7 @@ function template1(faq, relatedFaqs = []) {
         a
     } = mal;
 
-    const contentUrl = `${FAQ_BASE_URL}/faq${id}`;
+    const contentUrl = `${FAQ_BASE_URL}/${id}`;
     const encodedUrl = encodeURIComponent(contentUrl);
     const ques = q.replace(/\n/g, ' ');
     const ans = a.replace(/\n/g, ' ');
