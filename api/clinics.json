@@ -1140,5 +1140,131 @@
             ]
         ],
         "doctors": []
+    },
+    {
+        "name": "DermaVue",
+        "id": "dermavue",
+        "status": "",
+        "places": ["Thiruvananthapuram", "Thiruvalla", "Aluva"],
+        "logo": "dermavue.png",
+        "banner": "dermavue-banner.png",
+        "rank": 999,
+        "social":[
+            {
+                "icon": "fa-youtube",
+                "link": "https://www.youtube.com/channel/UC4pGPKrhvYTLueN4hoFBdIA"
+            },
+            {
+                "icon": "fa-facebook",
+                "link": "https://www.facebook.com/dermavueTVM"
+            },
+            {
+                "icon": "fa-instagram",
+                "link": "https://www.instagram.com/dermavueindia/"
+            }
+        ],
+        "info": 
+        [
+            [
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 80860 00608",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-envelope-open",
+                    "label": "help@dermavue.com",
+                    "link": "mailto"
+                },
+                {
+                    "icon": "fa-globe",
+                    "label": "https://www.dermavue.com",
+                    "link": true
+                }
+            ],
+            [
+                {
+                    "label": "Thiruvananthapuram",
+                    "highlight": true
+                },
+                {
+                    "icon": "fa-map-marker",
+                    "label": "TC 42, 3003-2, Poojappura Main Rd, Kesari Nagar, Poojapura, Chengalloor, Kerala 695012.",
+                    "link": false
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+ 91 83308 60007",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-envelope-open",
+                    "label": "tvm@dermavue.com",
+                    "link": "mailto"
+                }
+            ],
+            [
+                {
+                    "label": "Thiruvalla",
+                    "highlight": true
+                },
+                {
+                    "icon": "fa-map-marker",
+                    "label": "Iykara Peniel Tower, Opposite Indian Overseas Bank, Thukalassery, Thiruvalla, Kerala 689101.",
+                    "link": false
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 80860 00608",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-envelope-open",
+                    "label": "tvla@dermavue.com",
+                    "link": "mailto"
+                }
+            ],
+            [
+                {
+                    "label": "Aluva",
+                    "highlight": true
+                },
+                {
+                    "icon": "fa-map-marker",
+                    "label": "Tamarind Rajadhani Building, Near Pulinchodu, NH-47 Metro Rail Pillar No: 57, Aluva, Kerala 683101",
+                    "link": false
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91 90720 07733",
+                    "link": "tel"
+                },
+                {
+                    "icon": "fa-envelope-open",
+                    "label": "aluva@dermavue.com",
+                    "link": "mailto"
+                }
+            ]
+        ],
+        "doctors": [
+            {
+                "id": 26
+            },
+            {
+                "id": 27
+            },
+            {
+                "id": 28
+            },
+            {
+                "id": 29
+            },
+            {
+                "id": 30
+            },
+            {
+                "id": 31
+            }
+        ]
     }
 ]

@@ -128,6 +128,36 @@
         "label": "Dr.Pranaya Bagde",
         "more": "M.D.(DVL), DNB (D&V), MSc(Psychology)",
         "link": "http://kingsway.designcan.in/specialities/dr-pranaya-bagde/"
+    },
+    {
+        "id" : 26,
+        "label": "Dr. Malavika",
+        "more" : "MBBS, MD. Dermatologist"
+    },
+    {
+        "id" : 27,
+        "label": "DR. ARUNDHATHI GURUDAYAL",
+        "more" : "MBBS, DDVL. Dermatologist"
+    },
+    {
+        "id" : 28,
+        "label": "Dr. Minu Liz Mathew",
+        "more" : "MBBS, MD. Dermatologist And Hair Transplant Surgeon"
+    },
+    {
+        "id" : 29,
+        "label": "Dr. Parvathy R",
+        "more" : "MBBS, MD (DVL), DNB (DVL), Dermatologist"
+    },
+    {
+        "id" : 30,
+        "label": "Dr. Alex James",
+        "more" : "MBBS, MD Dermatology, Fellowship in Aesthetic Medicine. Dermatologist And Hair Transplant Surgeon"
+    },
+    {
+        "id" : 31,
+        "label": "Dr. Dinesh Jayaram",
+        "more" : "MBBS, MD Dermatology, Fellowship in Dermatosurgery. Dermatologist And Hair Transplant Surgeon"
     }
 
 ]

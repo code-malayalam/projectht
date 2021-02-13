@@ -237,7 +237,7 @@ function template1(clinic, docData = []) {
 
                         ${doctors.length === 0 ? `
                             <div class="clinic-no-doctors border-label">
-                                ഓരോ ക്ലിനിക്കിലെയും ഡോക്ടർമാരുടെ വിവരങ്ങൾ വെബ്സൈറ്റിലെ ലഭ്യമല്ല.
+                                ${places.length > 1 ? 'ഓരോ ക്ലിനിക്കിലെയും' : ''} ഡോക്ടർമാരുടെ വിവരങ്ങൾ വെബ്സൈറ്റിലെ ലഭ്യമല്ല.
                             </div>
                         ` : ''}
     
