@@ -123,7 +123,7 @@ function template1(clinic, docData = []) {
             <link rel="preconnect" href="https://fonts.gstatic.com">
             <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
             <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
-            <title>HT MALAYALAM</title>
+            <title>${name} - ${titlePlaces}</title>
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-826R4FRRS7"></script>
             <script src="/gtag.js"></script>
 
