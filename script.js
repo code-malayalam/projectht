@@ -2,8 +2,23 @@ const CLINIC_DISPLAY_LENGTH = 5;
 
 let homeClikedStateDefault = true;
 
+const points = {
+    hairfreehairgrow: 3,
+    hairgraaft: 10,
+    turkey_kerala: 16,
+    madari: 8,
+    la_denisitae: 35,
+    cht: 4,
+    hairocraft: 5,
+    hairtree: 11
+};
 function sortClinics (data) {
-    return data.sort((a, b) => a.rank - b.rank);
+    console.log(data);
+    return data.sort((a, b) => {
+        const aPoint = points[a.id] || 0;
+        const bPoint = points[b.id] || 0;
+        return bPoint - aPoint;
+    });
 }
 
 function loadData(reqs) {

@@ -132,9 +132,7 @@ function template1(clinic, docData = []) {
             <meta property="og:type" content="article"/>
             <meta property="og:site_name" content="HT Malayalam - Hair Transplant Portal"/>
             <meta property="og:url" content="${contentUrl}">
-            <meta name="twitter:card" content="summary_large_image" />
-            
-            ${logo ? `<meta name="twitter:image" content="${ICON_BASE_URL}/${logo}"/>` : ''}
+            ${logo ? `<meta property="og:image" content="${ICON_BASE_URL}/${logo}"/>` : ''}
 
             <link rel="stylesheet" href="/styles.css?v=2">
             <link rel="stylesheet" href="/stylesClinicGen.css?v=2">
