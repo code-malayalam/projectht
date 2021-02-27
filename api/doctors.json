@@ -158,6 +158,18 @@
         "id" : 31,
         "label": "Dr. Dinesh Jayaram",
         "more" : "MBBS, MD Dermatology, Fellowship in Dermatosurgery. Dermatologist And Hair Transplant Surgeon"
+    },
+    {
+        "id" : 32,
+        "label": "Dr.Sebastian Jacob"
+    },
+    {
+        "id" : 33,
+        "label": "Dr.Jean Mary Johns"
+    },
+    {
+        "id" : 34,
+        "label": "Dr.Minnu Mathew"
     }
 
 ]

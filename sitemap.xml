@@ -152,4 +152,8 @@
         <loc>https://htmalayalam.in/clinic/dermavue</loc>
         <changefreq>weekly</changefreq>
     </url>
+    <url>
+        <loc>https://htmalayalam.in/clinic/bhc</loc>
+        <changefreq>weekly</changefreq>
+    </url>
 </urlset>

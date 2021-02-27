@@ -1266,5 +1266,65 @@
                 "id": 31
             }
         ]
+    },
+    {
+        "name": "Beau Hair & Cosmetics",
+        "id": "bhc",
+        "places": ["Kozhikode", "Kochi"],
+        "logo": "bhc.png",
+        "banner": "bhc-banner.png",
+        "doctorsLink": "http://www.bhchairtransplant.com/about-us.html",
+        "info": [
+            [
+                {
+                    "icon": "fa-envelope-open",
+                    "label": "bhchairtransplant@gmail.com",
+                    "link": "mailto"
+                },
+                {
+                    "icon": "fa-globe",
+                    "label": "http://www.bhchairtransplant.com",
+                    "link": true
+                },
+                {
+                    "icon": "fa-phone",
+                    "label": "+91-9447951155",
+                    "link": "tel"
+                }
+            ],
+            [
+                {
+                    "label" : "Kozhikode",
+                    "highlight": true
+                },
+                {
+                    "icon": "fa-map-marker",
+                    "label": " Near Nellocode Housing Colony, Kavu Nagar Medical College Rd Thondayad Kozhikode",
+                    "link": false
+                }
+            ],
+            [
+                {
+                    "label" : "Kochi",
+                    "highlight": true
+                },
+                {
+                    "icon": "fa-map-marker",
+                    "label": "5th Floor, Max Business Bay, Tripunitura Road, Vyttila,Kochi,Kerala 682019",
+                    "link": false
+                }
+            ]
+        ],
+        "doctors": [
+            {
+                "id": 32
+            },
+            {
+                "id": 33
+            },
+            {
+                "id": 34
+            }
+        ]
     }
 ]
